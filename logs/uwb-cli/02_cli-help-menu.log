@@ -1,0 +1,20 @@
+dwm> set_addr 0x0001   (answer: error unknown command "SET_ADDR")
+
+DWM3001CDK - DW3_QM33_SDK - FreeRTOS
+
+---       Anytime commands       ---
+HELP      ?         STOP      THREAD
+STAT
+
+---    Application selection     ---
+LISTENER  RESPF     INITF
+
+---      IDLE time commands      ---
+UART      CALKEY    LISTCAL
+
+---       Service commands       ---
+RESTORE   DIAG      LCFG      DECAID
+SAVE      SETAPP    GETOTP
+
+---       LISTENER Options       ---
+LSTAT

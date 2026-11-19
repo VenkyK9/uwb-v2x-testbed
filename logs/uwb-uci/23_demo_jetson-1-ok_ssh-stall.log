@@ -1,0 +1,1238 @@
+Jetson 1:
+            AoA elevation:      0.0 deg
+            AoA elev. FOM:      0.0
+            AoA dest azimuth:   0.0 deg
+            AoA dest az. FOM:   0.0 %
+            AoA dest elevation: 0.0 deg
+            AoA dest elev. FOM: 0.0 %
+            slot in error:      0
+            rssi:               -0.0 dBm
+        # Measurement 2:
+            status:             Ok (0x0)
+            mac address:        00:02 hex
+            is nlos meas:       Unsupported
+            distance:           343.0 cm
+            AoA azimuth:        0.0 deg
+            AoA az. FOM:        0.0 %
+            AoA elevation:      0.0 deg
+            AoA elev. FOM:      0.0
+            AoA dest azimuth:   0.0 deg
+            AoA dest az. FOM:   0.0 %
+            AoA dest elevation: 0.0 deg
+            AoA dest elev. FOM: 0.0 %
+            slot in error:      0
+            rssi:               -0.0 dBm
+        # Measurement 3:
+            status:             Ok (0x0)
+            mac address:        00:03 hex
+            is nlos meas:       Unsupported
+            distance:           368.0 cm
+            AoA azimuth:        0.0 deg
+            AoA az. FOM:        0.0 %
+            AoA elevation:      0.0 deg
+            AoA elev. FOM:      0.0
+            AoA dest azimuth:   0.0 deg
+            AoA dest az. FOM:   0.0 %
+            AoA dest elevation: 0.0 deg
+            AoA dest elev. FOM: 0.0 %
+            slot in error:      0
+            rssi:               -0.0 dBm
+
+# Ranging Data:
+        session handle:         2
+        sequence n:         7
+        ranging interval:   200 ms
+        measurement type:   Twr
+        Mac add size:       2
+        primary session id: 0x0
+        n of measurement:   3
+        # Measurement 1:
+            status:             Ok (0x0)
+            mac address:        00:01 hex
+            is nlos meas:       Unsupported
+            distance:           348.0 cm
+            AoA azimuth:        0.0 deg
+            AoA az. FOM:        0.0 %
+            AoA elevation:      0.0 deg
+            AoA elev. FOM:      0.0
+            AoA dest azimuth:   0.0 deg
+            AoA dest az. FOM:   0.0 %
+            AoA dest elevation: 0.0 deg
+            AoA dest elev. FOM: 0.0 %
+            slot in error:      0
+            rssi:               -0.0 dBm
+        # Measurement 2:
+            status:             Ok (0x0)
+            mac address:        00:02 hex
+            is nlos meas:       Unsupported
+            distance:           346.0 cm
+            AoA azimuth:        0.0 deg
+            AoA az. FOM:        0.0 %
+            AoA elevation:      0.0 deg
+            AoA elev. FOM:      0.0
+            AoA dest azimuth:   0.0 deg
+            AoA dest az. FOM:   0.0 %
+            AoA dest elevation: 0.0 deg
+            AoA dest elev. FOM: 0.0 %
+            slot in error:      0
+            rssi:               -0.0 dBm
+        # Measurement 3:
+            status:             Ok (0x0)
+            mac address:        00:03 hex
+            is nlos meas:       Unsupported
+            distance:           364.0 cm
+            AoA azimuth:        0.0 deg
+            AoA az. FOM:        0.0 %
+            AoA elevation:      0.0 deg
+            AoA elev. FOM:      0.0
+            AoA dest azimuth:   0.0 deg
+            AoA dest az. FOM:   0.0 %
+            AoA dest elevation: 0.0 deg
+            AoA dest elev. FOM: 0.0 %
+            slot in error:      0
+            rssi:               -0.0 dBm
+
+# Ranging Data:
+        session handle:         2
+        sequence n:         8
+        ranging interval:   200 ms
+        measurement type:   Twr
+        Mac add size:       2
+        primary session id: 0x0
+        n of measurement:   3
+        # Measurement 1:
+            status:             Ok (0x0)
+            mac address:        00:01 hex
+            is nlos meas:       Unsupported
+            distance:           376.0 cm
+            AoA azimuth:        0.0 deg
+            AoA az. FOM:        0.0 %
+            AoA elevation:      0.0 deg
+            AoA elev. FOM:      0.0
+            AoA dest azimuth:   0.0 deg
+            AoA dest az. FOM:   0.0 %
+            AoA dest elevation: 0.0 deg
+            AoA dest elev. FOM: 0.0 %
+            slot in error:      0
+            rssi:               -0.0 dBm
+        # Measurement 2:
+            status:             Ok (0x0)
+            mac address:        00:02 hex
+            is nlos meas:       Unsupported
+            distance:           345.0 cm
+            AoA azimuth:        0.0 deg
+            AoA az. FOM:        0.0 %
+            AoA elevation:      0.0 deg
+            AoA elev. FOM:      0.0
+            AoA dest azimuth:   0.0 deg
+            AoA dest az. FOM:   0.0 %
+            AoA dest elevation: 0.0 deg
+            AoA dest elev. FOM: 0.0 %
+            slot in error:      0
+            rssi:               -0.0 dBm
+        # Measurement 3:
+            status:             Ok (0x0)
+            mac address:        00:03 hex
+            is nlos meas:       Unsupported
+            distance:           368.0 cm
+            AoA azimuth:        0.0 deg
+            AoA az. FOM:        0.0 %
+            AoA elevation:      0.0 deg
+            AoA elev. FOM:      0.0
+            AoA dest azimuth:   0.0 deg
+            AoA dest az. FOM:   0.0 %
+            AoA dest elevation: 0.0 deg
+            AoA dest elev. FOM: 0.0 %
+            slot in error:      0
+            rssi:               -0.0 dBm
+
+# Ranging Data:
+        session handle:         2
+        sequence n:         9
+        ranging interval:   200 ms
+        measurement type:   Twr
+        Mac add size:       2
+        primary session id: 0x0
+        n of measurement:   3
+        # Measurement 1:
+            status:             Ok (0x0)
+            mac address:        00:01 hex
+            is nlos meas:       Unsupported
+            distance:           358.0 cm
+            AoA azimuth:        0.0 deg
+            AoA az. FOM:        0.0 %
+            AoA elevation:      0.0 deg
+            AoA elev. FOM:      0.0
+            AoA dest azimuth:   0.0 deg
+            AoA dest az. FOM:   0.0 %
+            AoA dest elevation: 0.0 deg
+            AoA dest elev. FOM: 0.0 %
+            slot in error:      0
+            rssi:               -0.0 dBm
+        # Measurement 2:
+            status:             Ok (0x0)
+            mac address:        00:02 hex
+            is nlos meas:       Unsupported
+            distance:           343.0 cm
+            AoA azimuth:        0.0 deg
+            AoA az. FOM:        0.0 %
+            AoA elevation:      0.0 deg
+            AoA elev. FOM:      0.0
+            AoA dest azimuth:   0.0 deg
+            AoA dest az. FOM:   0.0 %
+            AoA dest elevation: 0.0 deg
+            AoA dest elev. FOM: 0.0 %
+            slot in error:      0
+            rssi:               -0.0 dBm
+        # Measurement 3:
+            status:             Ok (0x0)
+            mac address:        00:03 hex
+            is nlos meas:       Unsupported
+            distance:           368.0 cm
+            AoA azimuth:        0.0 deg
+            AoA az. FOM:        0.0 %
+            AoA elevation:      0.0 deg
+            AoA elev. FOM:      0.0
+            AoA dest azimuth:   0.0 deg
+            AoA dest az. FOM:   0.0 %
+            AoA dest elevation: 0.0 deg
+            AoA dest elev. FOM: 0.0 %
+            slot in error:      0
+            rssi:               -0.0 dBm
+
+# Ranging Data:
+        session handle:         2
+        sequence n:         10
+        ranging interval:   200 ms
+        measurement type:   Twr
+        Mac add size:       2
+        primary session id: 0x0
+        n of measurement:   3
+        # Measurement 1:
+            status:             Ok (0x0)
+            mac address:        00:01 hex
+            is nlos meas:       Unsupported
+            distance:           390.0 cm
+            AoA azimuth:        0.0 deg
+            AoA az. FOM:        0.0 %
+            AoA elevation:      0.0 deg
+            AoA elev. FOM:      0.0
+            AoA dest azimuth:   0.0 deg
+            AoA dest az. FOM:   0.0 %
+            AoA dest elevation: 0.0 deg
+            AoA dest elev. FOM: 0.0 %
+            slot in error:      0
+            rssi:               -0.0 dBm
+        # Measurement 2:
+            status:             RangingRxTimeout (0x21)
+            mac address:        00:02 hex
+            is nlos meas:       Unsupported
+            distance:           65535.0 cm
+            AoA azimuth:        0.0 deg
+            AoA az. FOM:        0.0 %
+            AoA elevation:      0.0 deg
+            AoA elev. FOM:      0.0
+            AoA dest azimuth:   0.0 deg
+            AoA dest az. FOM:   0.0 %
+            AoA dest elevation: 0.0 deg
+            AoA dest elev. FOM: 0.0 %
+            slot in error:      8
+            rssi:               -0.0 dBm
+        # Measurement 3:
+            status:             Ok (0x0)
+            mac address:        00:03 hex
+            is nlos meas:       Unsupported
+            distance:           369.0 cm
+            AoA azimuth:        0.0 deg
+            AoA az. FOM:        0.0 %
+            AoA elevation:      0.0 deg
+            AoA elev. FOM:      0.0
+            AoA dest azimuth:   0.0 deg
+            AoA dest az. FOM:   0.0 %
+            AoA dest elevation: 0.0 deg
+            AoA dest elev. FOM: 0.0 %
+            slot in error:      0
+            rssi:               -0.0 dBm
+
+# Ranging Data:
+        session handle:         2
+        sequence n:         11
+        ranging interval:   200 ms
+        measurement type:   Twr
+        Mac add size:       2
+        primary session id: 0x0
+        n of measurement:   3
+        # Measurement 1:
+            status:             Ok (0x0)
+            mac address:        00:01 hex
+            is nlos meas:       Unsupported
+            distance:           392.0 cm
+            AoA azimuth:        0.0 deg
+            AoA az. FOM:        0.0 %
+            AoA elevation:      0.0 deg
+            AoA elev. FOM:      0.0
+            AoA dest azimuth:   0.0 deg
+            AoA dest az. FOM:   0.0 %
+            AoA dest elevation: 0.0 deg
+            AoA dest elev. FOM: 0.0 %
+            slot in error:      0
+            rssi:               -0.0 dBm
+        # Measurement 2:
+            status:             RangingRxTimeout (0x21)
+            mac address:        00:02 hex
+            is nlos meas:       Unsupported
+            distance:           65535.0 cm
+            AoA azimuth:        0.0 deg
+            AoA az. FOM:        0.0 %
+            AoA elevation:      0.0 deg
+            AoA elev. FOM:      0.0
+            AoA dest azimuth:   0.0 deg
+            AoA dest az. FOM:   0.0 %
+            AoA dest elevation: 0.0 deg
+            AoA dest elev. FOM: 0.0 %
+            slot in error:      3
+            rssi:               -0.0 dBm
+        # Measurement 3:
+            status:             Ok (0x0)
+            mac address:        00:03 hex
+            is nlos meas:       Unsupported
+            distance:           365.0 cm
+            AoA azimuth:        0.0 deg
+            AoA az. FOM:        0.0 %
+            AoA elevation:      0.0 deg
+            AoA elev. FOM:      0.0
+            AoA dest azimuth:   0.0 deg
+            AoA dest az. FOM:   0.0 %
+            AoA dest elevation: 0.0 deg
+            AoA dest elev. FOM: 0.0 %
+            slot in error:      0
+            rssi:               -0.0 dBm
+
+# Ranging Data:
+        session handle:         2
+        sequence n:         12
+        ranging interval:   200 ms
+        measurement type:   Twr
+        Mac add size:       2
+        primary session id: 0x0
+        n of measurement:   3
+        # Measurement 1:
+            status:             Ok (0x0)
+            mac address:        00:01 hex
+            is nlos meas:       Unsupported
+            distance:           375.0 cm
+            AoA azimuth:        0.0 deg
+            AoA az. FOM:        0.0 %
+            AoA elevation:      0.0 deg
+            AoA elev. FOM:      0.0
+            AoA dest azimuth:   0.0 deg
+            AoA dest az. FOM:   0.0 %
+            AoA dest elevation: 0.0 deg
+            AoA dest elev. FOM: 0.0 %
+            slot in error:      0
+            rssi:               -0.0 dBm
+        # Measurement 2:
+            status:             RangingRxTimeout (0x21)
+            mac address:        00:02 hex
+            is nlos meas:       Unsupported
+            distance:           65535.0 cm
+            AoA azimuth:        0.0 deg
+            AoA az. FOM:        0.0 %
+            AoA elevation:      0.0 deg
+            AoA elev. FOM:      0.0
+            AoA dest azimuth:   0.0 deg
+            AoA dest az. FOM:   0.0 %
+            AoA dest elevation: 0.0 deg
+            AoA dest elev. FOM: 0.0 %
+            slot in error:      8
+            rssi:               -0.0 dBm
+        # Measurement 3:
+            status:             Ok (0x0)
+            mac address:        00:03 hex
+            is nlos meas:       Unsupported
+            distance:           369.0 cm
+            AoA azimuth:        0.0 deg
+            AoA az. FOM:        0.0 %
+            AoA elevation:      0.0 deg
+            AoA elev. FOM:      0.0
+            AoA dest azimuth:   0.0 deg
+            AoA dest az. FOM:   0.0 %
+            AoA dest elevation: 0.0 deg
+            AoA dest elev. FOM: 0.0 %
+            slot in error:      0
+            rssi:               -0.0 dBm
+
+# Ranging Data:
+        session handle:         2
+        sequence n:         13
+        ranging interval:   200 ms
+        measurement type:   Twr
+        Mac add size:       2
+        primary session id: 0x0
+        n of measurement:   3
+        # Measurement 1:
+            status:             Ok (0x0)
+            mac address:        00:01 hex
+            is nlos meas:       Unsupported
+            distance:           412.0 cm
+            AoA azimuth:        0.0 deg
+            AoA az. FOM:        0.0 %
+            AoA elevation:      0.0 deg
+            AoA elev. FOM:      0.0
+            AoA dest azimuth:   0.0 deg
+            AoA dest az. FOM:   0.0 %
+            AoA dest elevation: 0.0 deg
+            AoA dest elev. FOM: 0.0 %
+            slot in error:      0
+            rssi:               -0.0 dBm
+        # Measurement 2:
+            status:             RangingRxTimeout (0x21)
+            mac address:        00:02 hex
+            is nlos meas:       Unsupported
+            distance:           65535.0 cm
+            AoA azimuth:        0.0 deg
+            AoA az. FOM:        0.0 %
+            AoA elevation:      0.0 deg
+            AoA elev. FOM:      0.0
+            AoA dest azimuth:   0.0 deg
+            AoA dest az. FOM:   0.0 %
+            AoA dest elevation: 0.0 deg
+            AoA dest elev. FOM: 0.0 %
+            slot in error:      8
+            rssi:               -0.0 dBm
+        # Measurement 3:
+            status:             Ok (0x0)
+            mac address:        00:03 hex
+            is nlos meas:       Unsupported
+            distance:           368.0 cm
+            AoA azimuth:        0.0 deg
+            AoA az. FOM:        0.0 %
+            AoA elevation:      0.0 deg
+            AoA elev. FOM:      0.0
+            AoA dest azimuth:   0.0 deg
+            AoA dest az. FOM:   0.0 %
+            AoA dest elevation: 0.0 deg
+            AoA dest elev. FOM: 0.0 %
+            slot in error:      0
+            rssi:               -0.0 dBm
+
+# Ranging Data:
+        session handle:         2
+        sequence n:         14
+        ranging interval:   200 ms
+        measurement type:   Twr
+        Mac add size:       2
+        primary session id: 0x0
+        n of measurement:   3
+        # Measurement 1:
+            status:             Ok (0x0)
+            mac address:        00:01 hex
+            is nlos meas:       Unsupported
+            distance:           391.0 cm
+            AoA azimuth:        0.0 deg
+            AoA az. FOM:        0.0 %
+            AoA elevation:      0.0 deg
+            AoA elev. FOM:      0.0
+            AoA dest azimuth:   0.0 deg
+            AoA dest az. FOM:   0.0 %
+            AoA dest elevation: 0.0 deg
+            AoA dest elev. FOM: 0.0 %
+            slot in error:      0
+            rssi:               -0.0 dBm
+        # Measurement 2:
+            status:             RangingRxTimeout (0x21)
+            mac address:        00:02 hex
+            is nlos meas:       Unsupported
+            distance:           65535.0 cm
+            AoA azimuth:        0.0 deg
+            AoA az. FOM:        0.0 %
+            AoA elevation:      0.0 deg
+            AoA elev. FOM:      0.0
+            AoA dest azimuth:   0.0 deg
+            AoA dest az. FOM:   0.0 %
+            AoA dest elevation: 0.0 deg
+            AoA dest elev. FOM: 0.0 %
+            slot in error:      3
+            rssi:               -0.0 dBm
+        # Measurement 3:
+            status:             Ok (0x0)
+            mac address:        00:03 hex
+            is nlos meas:       Unsupported
+            distance:           370.0 cm
+            AoA azimuth:        0.0 deg
+            AoA az. FOM:        0.0 %
+            AoA elevation:      0.0 deg
+            AoA elev. FOM:      0.0
+            AoA dest azimuth:   0.0 deg
+            AoA dest az. FOM:   0.0 %
+            AoA dest elevation: 0.0 deg
+            AoA dest elev. FOM: 0.0 %
+            slot in error:      0
+            rssi:               -0.0 dBm
+
+Stopping ranging...
+Deinitializing session...
+Ok
+--- Initiating TAG 2 (Jetson 2) ---
+Pseudo-terminal will not be allocated because stdin is not a terminal.
+Welcome to Ubuntu 22.04.5 LTS (GNU/Linux 5.15.148-tegra aarch64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/pro
+
+This system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
+
+To restore this content, you can run the 'unminimize' command.
+
+Expanded Security Maintenance for Applications is not enabled.
+
+439 updates can be applied immediately.
+304 of these updates are standard security updates.
+To see these additional updates run: apt list --upgradable
+
+115 additional security updates can be applied with ESM Apps.
+Learn more about enabling ESM Apps service at https://ubuntu.com/esm
+
+Initializing session 42...
+^Z
+[5]+  Stopped                 ~/uwb-qorvo-tools/demo_runner.sh
+
+Pi1:
+AoA dest elevation: 0.0 deg
+            AoA dest elev. FOM: 0.0 %
+            slot in error:      0
+            rssi:               -0.0 dBm
+
+# Ranging Data:
+        session handle:         1
+        sequence n:         97
+        ranging interval:   200 ms
+        measurement type:   Twr
+        Mac add size:       2
+        primary session id: 0x0
+        n of measurement:   1
+        # Measurement 1:
+            status:             RangingRxTimeout (0x21)
+            mac address:        00:00 hex
+            is nlos meas:       Unsupported
+            distance:           65535.0 cm
+            AoA azimuth:        0.0 deg
+            AoA az. FOM:        0.0 %
+            AoA elevation:      0.0 deg
+            AoA elev. FOM:      0.0
+            AoA dest azimuth:   0.0 deg
+            AoA dest az. FOM:   0.0 %
+            AoA dest elevation: 0.0 deg
+            AoA dest elev. FOM: 0.0 %
+            slot in error:      0
+            rssi:               -0.0 dBm
+
+# Ranging Data:
+        session handle:         1
+        sequence n:         98
+        ranging interval:   200 ms
+        measurement type:   Twr
+        Mac add size:       2
+        primary session id: 0x0
+        n of measurement:   1
+        # Measurement 1:
+            status:             RangingRxTimeout (0x21)
+            mac address:        00:00 hex
+            is nlos meas:       Unsupported
+            distance:           65535.0 cm
+            AoA azimuth:        0.0 deg
+            AoA az. FOM:        0.0 %
+            AoA elevation:      0.0 deg
+            AoA elev. FOM:      0.0
+            AoA dest azimuth:   0.0 deg
+            AoA dest az. FOM:   0.0 %
+            AoA dest elevation: 0.0 deg
+            AoA dest elev. FOM: 0.0 %
+            slot in error:      0
+            rssi:               -0.0 dBm
+
+# Ranging Data:
+        session handle:         1
+        sequence n:         99
+        ranging interval:   200 ms
+        measurement type:   Twr
+        Mac add size:       2
+        primary session id: 0x0
+        n of measurement:   1
+        # Measurement 1:
+            status:             RangingRxTimeout (0x21)
+            mac address:        00:00 hex
+            is nlos meas:       Unsupported
+            distance:           65535.0 cm
+            AoA azimuth:        0.0 deg
+            AoA az. FOM:        0.0 %
+            AoA elevation:      0.0 deg
+            AoA elev. FOM:      0.0
+            AoA dest azimuth:   0.0 deg
+            AoA dest az. FOM:   0.0 %
+            AoA dest elevation: 0.0 deg
+            AoA dest elev. FOM: 0.0 %
+            slot in error:      0
+            rssi:               -0.0 dBm
+
+# Ranging Data:
+        session handle:         1
+        sequence n:         100
+        ranging interval:   200 ms
+        measurement type:   Twr
+        Mac add size:       2
+        primary session id: 0x0
+        n of measurement:   1
+        # Measurement 1:
+            status:             RangingRxTimeout (0x21)
+            mac address:        00:00 hex
+            is nlos meas:       Unsupported
+            distance:           65535.0 cm
+            AoA azimuth:        0.0 deg
+            AoA az. FOM:        0.0 %
+            AoA elevation:      0.0 deg
+            AoA elev. FOM:      0.0
+            AoA dest azimuth:   0.0 deg
+            AoA dest az. FOM:   0.0 %
+            AoA dest elevation: 0.0 deg
+            AoA dest elev. FOM: 0.0 %
+            slot in error:      0
+            rssi:               -0.0 dBm
+
+# Ranging Data:
+        session handle:         1
+        sequence n:         101
+        ranging interval:   200 ms
+        measurement type:   Twr
+        Mac add size:       2
+        primary session id: 0x0
+        n of measurement:   1
+        # Measurement 1:
+            status:             RangingRxTimeout (0x21)
+            mac address:        00:00 hex
+            is nlos meas:       Unsupported
+            distance:           65535.0 cm
+            AoA azimuth:        0.0 deg
+            AoA az. FOM:        0.0 %
+            AoA elevation:      0.0 deg
+            AoA elev. FOM:      0.0
+            AoA dest azimuth:   0.0 deg
+            AoA dest az. FOM:   0.0 %
+            AoA dest elevation: 0.0 deg
+            AoA dest elev. FOM: 0.0 %
+            slot in error:      0
+            rssi:               -0.0 dBm
+
+# Ranging Data:
+        session handle:         1
+        sequence n:         102
+        ranging interval:   200 ms
+        measurement type:   Twr
+        Mac add size:       2
+        primary session id: 0x0
+        n of measurement:   1
+        # Measurement 1:
+            status:             RangingRxTimeout (0x21)
+            mac address:        00:00 hex
+            is nlos meas:       Unsupported
+            distance:           65535.0 cm
+            AoA azimuth:        0.0 deg
+            AoA az. FOM:        0.0 %
+            AoA elevation:      0.0 deg
+            AoA elev. FOM:      0.0
+            AoA dest azimuth:   0.0 deg
+            AoA dest az. FOM:   0.0 %
+            AoA dest elevation: 0.0 deg
+            AoA dest elev. FOM: 0.0 %
+            slot in error:      0
+            rssi:               -0.0 dBm
+
+# Ranging Data:
+        session handle:         1
+        sequence n:         103
+        ranging interval:   200 ms
+        measurement type:   Twr
+        Mac add size:       2
+        primary session id: 0x0
+        n of measurement:   1
+        # Measurement 1:
+            status:             RangingRxTimeout (0x21)
+            mac address:        00:00 hex
+            is nlos meas:       Unsupported
+            distance:           65535.0 cm
+            AoA azimuth:        0.0 deg
+            AoA az. FOM:        0.0 %
+            AoA elevation:      0.0 deg
+            AoA elev. FOM:      0.0
+            AoA dest azimuth:   0.0 deg
+            AoA dest az. FOM:   0.0 %
+            AoA dest elevation: 0.0 deg
+            AoA dest elev. FOM: 0.0 %
+            slot in error:      0
+            rssi:               -0.0 dBm
+
+# Ranging Data:
+        session handle:         1
+        sequence n:         104
+        ranging interval:   200 ms
+        measurement type:   Twr
+        Mac add size:       2
+        primary session id: 0x0
+        n of measurement:   1
+        # Measurement 1:
+            status:             RangingRxTimeout (0x21)
+            mac address:        00:00 hex
+            is nlos meas:       Unsupported
+            distance:           65535.0 cm
+            AoA azimuth:        0.0 deg
+            AoA az. FOM:        0.0 %
+            AoA elevation:      0.0 deg
+            AoA elev. FOM:      0.0
+            AoA dest azimuth:   0.0 deg
+            AoA dest az. FOM:   0.0 %
+            AoA dest elevation: 0.0 deg
+            AoA dest elev. FOM: 0.0 %
+            slot in error:      0
+            rssi:               -0.0 dBm
+
+# Ranging Data:
+        session handle:         1
+        sequence n:         105
+        ranging interval:   200 ms
+        measurement type:   Twr
+        Mac add size:       2
+        primary session id: 0x0
+        n of measurement:   1
+        # Measurement 1:
+            status:             RangingRxTimeout (0x21)
+            mac address:        00:00 hex
+            is nlos meas:       Unsupported
+            distance:           65535.0 cm
+            AoA azimuth:        0.0 deg
+            AoA az. FOM:        0.0 %
+            AoA elevation:      0.0 deg
+            AoA elev. FOM:      0.0
+            AoA dest azimuth:   0.0 deg
+            AoA dest az. FOM:   0.0 %
+            AoA dest elevation: 0.0 deg
+            AoA dest elev. FOM: 0.0 %
+            slot in error:      0
+            rssi:               -0.0 dBm
+
+# Ranging Data:
+        session handle:         1
+        sequence n:         106
+        ranging interval:   200 ms
+        measurement type:   Twr
+        Mac add size:       2
+        primary session id: 0x0
+        n of measurement:   1
+        # Measurement 1:
+            status:             RangingRxTimeout (0x21)
+            mac address:        00:00 hex
+            is nlos meas:       Unsupported
+            distance:           65535.0 cm
+            AoA azimuth:        0.0 deg
+            AoA az. FOM:        0.0 %
+            AoA elevation:      0.0 deg
+            AoA elev. FOM:      0.0
+            AoA dest azimuth:   0.0 deg
+            AoA dest az. FOM:   0.0 %
+            AoA dest elevation: 0.0 deg
+            AoA dest elev. FOM: 0.0 %
+            slot in error:      0
+            rssi:               -0.0 dBm
+
+# Ranging Data:
+        session handle:         1
+        sequence n:         107
+        ranging interval:   200 ms
+        measurement type:   Twr
+        Mac add size:       2
+        primary session id: 0x0
+        n of measurement:   1
+        # Measurement 1:
+            status:             RangingRxTimeout (0x21)
+            mac address:        00:00 hex
+            is nlos meas:       Unsupported
+            distance:           65535.0 cm
+            AoA azimuth:        0.0 deg
+            AoA az. FOM:        0.0 %
+            AoA elevation:      0.0 deg
+            AoA elev. FOM:      0.0
+            AoA dest azimuth:   0.0 deg
+            AoA dest az. FOM:   0.0 %
+            AoA dest elevation: 0.0 deg
+            AoA dest elev. FOM: 0.0 %
+            slot in error:      0
+            rssi:               -0.0 dBm
+
+# Ranging Data:
+        session handle:         1
+        sequence n:         108
+        ranging interval:   200 ms
+        measurement type:   Twr
+        Mac add size:       2
+        primary session id: 0x0
+        n of measurement:   1
+        # Measurement 1:
+            status:             RangingRxTimeout (0x21)
+            mac address:        00:00 hex
+            is nlos meas:       Unsupported
+            distance:           65535.0 cm
+            AoA azimuth:        0.0 deg
+            AoA az. FOM:        0.0 %
+            AoA elevation:      0.0 deg
+            AoA elev. FOM:      0.0
+            AoA dest azimuth:   0.0 deg
+            AoA dest az. FOM:   0.0 %
+            AoA dest elevation: 0.0 deg
+            AoA dest elev. FOM: 0.0 %
+            slot in error:      0
+            rssi:               -0.0 dBm
+
+# Ranging Data:
+        session handle:         1
+        sequence n:         109
+        ranging interval:   200 ms
+        measurement type:   Twr
+        Mac add size:       2
+        primary session id: 0x0
+        n of measurement:   1
+        # Measurement 1:
+            status:             RangingRxTimeout (0x21)
+            mac address:        00:00 hex
+            is nlos meas:       Unsupported
+            distance:           65535.0 cm
+            AoA azimuth:        0.0 deg
+            AoA az. FOM:        0.0 %
+            AoA elevation:      0.0 deg
+            AoA elev. FOM:      0.0
+            AoA dest azimuth:   0.0 deg
+            AoA dest az. FOM:   0.0 %
+            AoA dest elevation: 0.0 deg
+            AoA dest elev. FOM: 0.0 %
+            slot in error:      0
+            rssi:               -0.0 dBm
+
+# Ranging Data:
+        session handle:         1
+        sequence n:         110
+        ranging interval:   200 ms
+        measurement type:   Twr
+        Mac add size:       2
+        primary session id: 0x0
+        n of measurement:   1
+        # Measurement 1:
+            status:             RangingRxTimeout (0x21)
+            mac address:        00:00 hex
+            is nlos meas:       Unsupported
+            distance:           65535.0 cm
+            AoA azimuth:        0.0 deg
+            AoA az. FOM:        0.0 %
+            AoA elevation:      0.0 deg
+            AoA elev. FOM:      0.0
+            AoA dest azimuth:   0.0 deg
+            AoA dest az. FOM:   0.0 %
+            AoA dest elevation: 0.0 deg
+            AoA dest elev. FOM: 0.0 %
+            slot in error:      0
+            rssi:               -0.0 dBm
+
+# Ranging Data:
+        session handle:         1
+        sequence n:         111
+        ranging interval:   200 ms
+        measurement type:   Twr
+        Mac add size:       2
+        primary session id: 0x0
+        n of measurement:   1
+        # Measurement 1:
+            status:             RangingRxTimeout (0x21)
+            mac address:        00:00 hex
+            is nlos meas:       Unsupported
+            distance:           65535.0 cm
+            AoA azimuth:        0.0 deg
+            AoA az. FOM:        0.0 %
+            AoA elevation:      0.0 deg
+            AoA elev. FOM:      0.0
+            AoA dest azimuth:   0.0 deg
+            AoA dest az. FOM:   0.0 %
+            AoA dest elevation: 0.0 deg
+            AoA dest elev. FOM: 0.0 %
+            slot in error:      0
+            rssi:               -0.0 dBm
+
+# Ranging Data:
+        session handle:         1
+        sequence n:         112
+        ranging interval:   200 ms
+        measurement type:   Twr
+        Mac add size:       2
+        primary session id: 0x0
+        n of measurement:   1
+        # Measurement 1:
+            status:             RangingRxTimeout (0x21)
+            mac address:        00:00 hex
+            is nlos meas:       Unsupported
+            distance:           65535.0 cm
+            AoA azimuth:        0.0 deg
+            AoA az. FOM:        0.0 %
+            AoA elevation:      0.0 deg
+            AoA elev. FOM:      0.0
+            AoA dest azimuth:   0.0 deg
+            AoA dest az. FOM:   0.0 %
+            AoA dest elevation: 0.0 deg
+            AoA dest elev. FOM: 0.0 %
+            slot in error:      0
+            rssi:               -0.0 dBm
+
+# Ranging Data:
+        session handle:         1
+        sequence n:         113
+        ranging interval:   200 ms
+        measurement type:   Twr
+        Mac add size:       2
+        primary session id: 0x0
+        n of measurement:   1
+        # Measurement 1:
+            status:             RangingRxTimeout (0x21)
+            mac address:        00:00 hex
+            is nlos meas:       Unsupported
+            distance:           65535.0 cm
+            AoA azimuth:        0.0 deg
+            AoA az. FOM:        0.0 %
+            AoA elevation:      0.0 deg
+            AoA elev. FOM:      0.0
+            AoA dest azimuth:   0.0 deg
+            AoA dest az. FOM:   0.0 %
+            AoA dest elevation: 0.0 deg
+            AoA dest elev. FOM: 0.0 %
+            slot in error:      0
+            rssi:               -0.0 dBm
+
+# Ranging Data:
+        session handle:         1
+        sequence n:         114
+        ranging interval:   200 ms
+        measurement type:   Twr
+        Mac add size:       2
+        primary session id: 0x0
+        n of measurement:   1
+        # Measurement 1:
+            status:             RangingRxTimeout (0x21)
+            mac address:        00:00 hex
+            is nlos meas:       Unsupported
+            distance:           65535.0 cm
+            AoA azimuth:        0.0 deg
+            AoA az. FOM:        0.0 %
+            AoA elevation:      0.0 deg
+            AoA elev. FOM:      0.0
+            AoA dest azimuth:   0.0 deg
+            AoA dest az. FOM:   0.0 %
+            AoA dest elevation: 0.0 deg
+            AoA dest elev. FOM: 0.0 %
+            slot in error:      0
+            rssi:               -0.0 dBm
+
+# Ranging Data:
+        session handle:         1
+        sequence n:         115
+        ranging interval:   200 ms
+        measurement type:   Twr
+        Mac add size:       2
+        primary session id: 0x0
+        n of measurement:   1
+        # Measurement 1:
+            status:             RangingRxTimeout (0x21)
+            mac address:        00:00 hex
+            is nlos meas:       Unsupported
+            distance:           65535.0 cm
+            AoA azimuth:        0.0 deg
+            AoA az. FOM:        0.0 %
+            AoA elevation:      0.0 deg
+            AoA elev. FOM:      0.0
+            AoA dest azimuth:   0.0 deg
+            AoA dest az. FOM:   0.0 %
+            AoA dest elevation: 0.0 deg
+            AoA dest elev. FOM: 0.0 %
+            slot in error:      0
+            rssi:               -0.0 dBm
+
+# Ranging Data:
+        session handle:         1
+        sequence n:         116
+        ranging interval:   200 ms
+        measurement type:   Twr
+        Mac add size:       2
+        primary session id: 0x0
+        n of measurement:   1
+        # Measurement 1:
+            status:             RangingRxTimeout (0x21)
+            mac address:        00:00 hex
+            is nlos meas:       Unsupported
+            distance:           65535.0 cm
+            AoA azimuth:        0.0 deg
+            AoA az. FOM:        0.0 %
+            AoA elevation:      0.0 deg
+            AoA elev. FOM:      0.0
+            AoA dest azimuth:   0.0 deg
+            AoA dest az. FOM:   0.0 %
+            AoA dest elevation: 0.0 deg
+            AoA dest elev. FOM: 0.0 %
+            slot in error:      0
+            rssi:               -0.0 dBm
+
+^Z
+[5]+  Stopped                 python3 scripts/fira/run_fira_twr/run_fira_twr.py -t -1 --node onetomany --mac 0x1 --controlee
+
+Pi2:
+# Ranging Data:
+        session handle:         1
+        sequence n:         110
+        ranging interval:   200 ms
+        measurement type:   Twr
+        Mac add size:       2
+        primary session id: 0x0
+        n of measurement:   1
+        # Measurement 1:
+            status:             RangingRxTimeout (0x21)
+            mac address:        00:00 hex
+            is nlos meas:       Unsupported
+            distance:           65535.0 cm
+            AoA azimuth:        0.0 deg
+            AoA az. FOM:        0.0 %
+            AoA elevation:      0.0 deg
+            AoA elev. FOM:      0.0
+            AoA dest azimuth:   0.0 deg
+            AoA dest az. FOM:   0.0 %
+            AoA dest elevation: 0.0 deg
+            AoA dest elev. FOM: 0.0 %
+            slot in error:      0
+            rssi:               -0.0 dBm
+
+# Ranging Data:
+        session handle:         1
+        sequence n:         111
+        ranging interval:   200 ms
+        measurement type:   Twr
+        Mac add size:       2
+        primary session id: 0x0
+        n of measurement:   1
+        # Measurement 1:
+            status:             RangingRxTimeout (0x21)
+            mac address:        00:00 hex
+            is nlos meas:       Unsupported
+            distance:           65535.0 cm
+            AoA azimuth:        0.0 deg
+            AoA az. FOM:        0.0 %
+            AoA elevation:      0.0 deg
+            AoA elev. FOM:      0.0
+            AoA dest azimuth:   0.0 deg
+            AoA dest az. FOM:   0.0 %
+            AoA dest elevation: 0.0 deg
+            AoA dest elev. FOM: 0.0 %
+            slot in error:      0
+            rssi:               -0.0 dBm
+
+# Ranging Data:
+        session handle:         1
+        sequence n:         112
+        ranging interval:   200 ms
+        measurement type:   Twr
+        Mac add size:       2
+        primary session id: 0x0
+        n of measurement:   1
+        # Measurement 1:
+            status:             RangingRxTimeout (0x21)
+            mac address:        00:00 hex
+            is nlos meas:       Unsupported
+            distance:           65535.0 cm
+            AoA azimuth:        0.0 deg
+            AoA az. FOM:        0.0 %
+            AoA elevation:      0.0 deg
+            AoA elev. FOM:      0.0
+            AoA dest azimuth:   0.0 deg
+            AoA dest az. FOM:   0.0 %
+            AoA dest elevation: 0.0 deg
+            AoA dest elev. FOM: 0.0 %
+            slot in error:      0
+            rssi:               -0.0 dBm
+
+# Ranging Data:
+        session handle:         1
+        sequence n:         113
+        ranging interval:   200 ms
+        measurement type:   Twr
+        Mac add size:       2
+        primary session id: 0x0
+        n of measurement:   1
+        # Measurement 1:
+            status:             RangingRxTimeout (0x21)
+            mac address:        00:00 hex
+            is nlos meas:       Unsupported
+            distance:           65535.0 cm
+            AoA azimuth:        0.0 deg
+            AoA az. FOM:        0.0 %
+            AoA elevation:      0.0 deg
+            AoA elev. FOM:      0.0
+            AoA dest azimuth:   0.0 deg
+            AoA dest az. FOM:   0.0 %
+            AoA dest elevation: 0.0 deg
+            AoA dest elev. FOM: 0.0 %
+            slot in error:      0
+            rssi:               -0.0 dBm
+
+^Z
+[6]+  Stopped                 python3 scripts/fira/run_fira_twr/run_fira_twr.py -t -1 --node onetomany --mac 0x2 --controlee
+(uwb_venv) pi2@pi2:~/uwb-qorvo-tools $
+
+Pi3:
+# Ranging Data:
+        session handle:         1
+        sequence n:         106
+        ranging interval:   200 ms
+        measurement type:   Twr
+        Mac add size:       2
+        primary session id: 0x0
+        n of measurement:   1
+        # Measurement 1:
+            status:             RangingRxTimeout (0x21)
+            mac address:        00:00 hex
+            is nlos meas:       Unsupported
+            distance:           65535.0 cm
+            AoA azimuth:        0.0 deg
+            AoA az. FOM:        0.0 %
+            AoA elevation:      0.0 deg
+            AoA elev. FOM:      0.0
+            AoA dest azimuth:   0.0 deg
+            AoA dest az. FOM:   0.0 %
+            AoA dest elevation: 0.0 deg
+            AoA dest elev. FOM: 0.0 %
+            slot in error:      0
+            rssi:               -0.0 dBm
+
+# Ranging Data:
+        session handle:         1
+        sequence n:         107
+        ranging interval:   200 ms
+        measurement type:   Twr
+        Mac add size:       2
+        primary session id: 0x0
+        n of measurement:   1
+        # Measurement 1:
+            status:             RangingRxTimeout (0x21)
+            mac address:        00:00 hex
+            is nlos meas:       Unsupported
+            distance:           65535.0 cm
+            AoA azimuth:        0.0 deg
+            AoA az. FOM:        0.0 %
+            AoA elevation:      0.0 deg
+            AoA elev. FOM:      0.0
+            AoA dest azimuth:   0.0 deg
+            AoA dest az. FOM:   0.0 %
+            AoA dest elevation: 0.0 deg
+            AoA dest elev. FOM: 0.0 %
+            slot in error:      0
+            rssi:               -0.0 dBm
+
+# Ranging Data:
+        session handle:         1
+        sequence n:         108
+        ranging interval:   200 ms
+        measurement type:   Twr
+        Mac add size:       2
+        primary session id: 0x0
+        n of measurement:   1
+        # Measurement 1:
+            status:             RangingRxTimeout (0x21)
+            mac address:        00:00 hex
+            is nlos meas:       Unsupported
+            distance:           65535.0 cm
+            AoA azimuth:        0.0 deg
+            AoA az. FOM:        0.0 %
+            AoA elevation:      0.0 deg
+            AoA elev. FOM:      0.0
+            AoA dest azimuth:   0.0 deg
+            AoA dest az. FOM:   0.0 %
+            AoA dest elevation: 0.0 deg
+            AoA dest elev. FOM: 0.0 %
+            slot in error:      0
+            rssi:               -0.0 dBm
+
+# Ranging Data:
+        session handle:         1
+        sequence n:         109
+        ranging interval:   200 ms
+        measurement type:   Twr
+        Mac add size:       2
+        primary session id: 0x0
+        n of measurement:   1
+        # Measurement 1:
+            status:             RangingRxTimeout (0x21)
+            mac address:        00:00 hex
+            is nlos meas:       Unsupported
+            distance:           65535.0 cm
+            AoA azimuth:        0.0 deg
+            AoA az. FOM:        0.0 %
+            AoA elevation:      0.0 deg
+            AoA elev. FOM:      0.0
+            AoA dest azimuth:   0.0 deg
+            AoA dest az. FOM:   0.0 %
+            AoA dest elevation: 0.0 deg
+            AoA dest elev. FOM: 0.0 %
+            slot in error:      0
+            rssi:               -0.0 dBm
+
+# Ranging Data:
+        session handle:         1
+        sequence n:         110
+        ranging interval:   200 ms
+        measurement type:   Twr
+        Mac add size:       2
+        primary session id: 0x0
+        n of measurement:   1
+        # Measurement 1:
+            status:             RangingRxTimeout (0x21)
+            mac address:        00:00 hex
+            is nlos meas:       Unsupported
+            distance:           65535.0 cm
+            AoA azimuth:        0.0 deg
+            AoA az. FOM:        0.0 %
+            AoA elevation:      0.0 deg
+            AoA elev. FOM:      0.0
+            AoA dest azimuth:   0.0 deg
+            AoA dest az. FOM:   0.0 %
+            AoA dest elevation: 0.0 deg
+            AoA dest elev. FOM: 0.0 %
+            slot in error:      0
+            rssi:               -0.0 dBm
+
+# Ranging Data:
+        session handle:         1
+        sequence n:         111
+        ranging interval:   200 ms
+        measurement type:   Twr
+        Mac add size:       2
+        primary session id: 0x0
+        n of measurement:   1
+        # Measurement 1:
+            status:             RangingRxTimeout (0x21)
+            mac address:        00:00 hex
+            is nlos meas:       Unsupported
+            distance:           65535.0 cm
+            AoA azimuth:        0.0 deg
+            AoA az. FOM:        0.0 %
+            AoA elevation:      0.0 deg
+            AoA elev. FOM:      0.0
+            AoA dest azimuth:   0.0 deg
+            AoA dest az. FOM:   0.0 %
+            AoA dest elevation: 0.0 deg
+            AoA dest elev. FOM: 0.0 %
+            slot in error:      0
+            rssi:               -0.0 dBm
+
+^Z
+[6]+  Stopped                 python3 scripts/fira/run_fira_twr/run_fira_twr.py -t -1 --node onetomany --mac 0x3 --controlee

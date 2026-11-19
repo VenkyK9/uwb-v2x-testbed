@@ -1,0 +1,39 @@
+(uwb_venv) jetson1@jetson1-desktop:~/uwb-qorvo-tools$ ls /dev/ttyACM*
+/dev/ttyACM1
+(uwb_venv) jetson1@jetson1-desktop:~/uwb-qorvo-tools$ source ~/uwb_venv/bin/activate
+(uwb_venv) jetson1@jetson1-desktop:~/uwb-qorvo-tools$ python3 scripts/device/get_device_info/get_device_info.py -p /dev/ttyACM1
+Pinging device at /dev/ttyACM1:
+UciComError.TimeoutError (0x3): No response from the device (4s timeout)
+
+# ----
+# After shutting everything down and power cycling:
+jetson1@jetson1-desktop:~$ lsusb | grep -i nordic
+Bus 001 Device 004: ID 1915:520f Nordic Semiconductor ASA nRF52 USB Product
+jetson1@jetson1-desktop:~$ lsusb | grep -i decawave
+jetson1@jetson1-desktop:~$ dmesg | grep ttyACM
+dmesg: read kernel buffer failed: Operation not permitted
+jetson1@jetson1-desktop:~$ ls /dev/ttyACM*
+/dev/ttyACM0
+jetson1@jetson1-desktop:~$ ls -la /dev/ttyACM0
+crw-rw---- 1 root dialout 166, 0 May 28 11:23 /dev/ttyACM0
+
+# ----
+jetson1@jetson1-desktop:~$ source ~/uwb_venv/bin/activate
+(uwb_venv) jetson1@jetson1-desktop:~$ python3 scripts/device/get_device_info/get_device_info.py -p /dev/ttyACM0
+python3: can't open file '/home/jetson1/scripts/device/get_device_info/get_device_info.py': [Errno 2] No such file or directory
+
+# ----
+(uwb_venv) jetson1@jetson1-desktop:~/uwb-qorvo-tools$ python3 scripts/device/get_device_info/get_device_info.py -p /dev/ttyACM0
+Pinging device at /dev/ttyACM0:
+Get Device Info:
+    status:              Ok (0x0)
+    uci version:         2.0.0
+    mac version:         2.0.0
+    phy version:         2.0.0
+    uci test version:    1.1.0
+    QMF version:         1.1.0
+    OEM version:         0.0.0
+    build job:           na
+    soc id:              (removed)
+    device id:           deca0302
+

@@ -1,0 +1,11 @@
+# Store and check out text files with Unix (LF) line endings on every operating
+# system. Shell scripts copied to a Jetson or a Pi will not run with CRLF.
+*.md    text eol=lf
+*.py    text eol=lf
+*.sh    text eol=lf
+*.yaml  text eol=lf
+*.log   text eol=lf
+*.rules text eol=lf
+*.html  text eol=lf
+.gitattributes text eol=lf
+.gitignore     text eol=lf

@@ -1,0 +1,24 @@
+FiRa Session Parameters: {
+SESSION_ID: 42,
+CHANNEL_NUMBER: 9,
+DEVICE_ROLE: RESPONDER,
+RANGING_ROUND_USAGE: DS_TWR_DEFERRED,
+SLOT_DURATION [rstu]: 2400,
+RANGING_DURATION [ms]: 200,
+SLOTS_PER_RR: 25,
+MULTI_NODE_MODE: UNICAST,
+HOPPING_MODE: Disabled,
+RFRAME_CONFIG: SP3,
+SFD_ID: 2,
+PREAMBLE_CODE_INDEX: 10,
+STATIC_STS_IV: "01:02:03:04:05:06",
+VENDOR_ID: "07:08",
+DEVICE_MAC_ADDRESS: 0x0000,
+DST_MAC_ADDRESS: 0x0000
+}
+ok
+SESSION_STATUS_NTF: {state="INIT", reason="State change with session management commands"}
+SESSION_STATUS_NTF: {state="IDLE", reason="State change with session management commands"}
+SESSION_STATUS_NTF: {state="ACTIVE", reason="State change with session management commands"}
+SESSION_INFO_NTF: {session_handle=1, sequence_number=0, block_index=0, n_measurements=1
+ [mac_address=0x0000, status="RX_TIMEOUT"]}

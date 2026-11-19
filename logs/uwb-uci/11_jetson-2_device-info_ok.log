@@ -1,0 +1,20 @@
+(uwb_venv) jetson2@jetson2:~/uwb-qorvo-tools$ lsusb | grep -i nordic
+Bus 001 Device 005: ID 1915:520f Nordic Semiconductor ASA nRF52 USB Product
+(uwb_venv) jetson2@jetson2:~/uwb-qorvo-tools$ ls /dev/ttyACM*
+/dev/ttyACM1
+(uwb_venv) jetson2@jetson2:~/uwb-qorvo-tools$ python3 scripts/device/get_device_info/get_device_info.py -p /dev/ttyACM1
+Pinging device at /dev/ttyACM1:
+Get Device Info:
+    status:              Ok (0x0)
+    uci version:         2.0.0
+    mac version:         2.0.0
+    phy version:         2.0.0
+    uci test version:    1.1.0
+    QMF version:         1.1.0
+    OEM version:         0.0.0
+    build job:           na
+    soc id:              (removed)
+    device id:           deca0302
+
+(uwb_venv) jetson2@jetson2:~/uwb-qorvo-tools$ python3 scripts/device/get_mac_address/get_mac_address.py -p /dev/ttyACM1
+python3: can't open file '/home/jetson2/uwb-qorvo-tools/scripts/device/get_mac_address/get_mac_address.py': [Errno 2] No such file or directory command showed an error....

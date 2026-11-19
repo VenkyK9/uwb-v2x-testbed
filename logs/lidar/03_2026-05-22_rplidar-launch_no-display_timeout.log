@@ -1,0 +1,15 @@
+jetson1@jetson1-desktop:~/ros2_ws$ ros2 launch rplidar_ros view_rplidar_a2m12_launch.py
+[INFO] : All log files can be found below /home/jetson1/.ros/log/2026-05-22-14-49-38-078019-jetson1-desktop-4042
+[INFO] : Default logging verbosity is set to INFO
+[INFO] : process started with pid [4043]
+[INFO] : process started with pid [4045]
+[rplidar_node-1] [INFO] [1779441578.256095574] : RPLidar running on ROS2 package rplidar_ros. RPLIDAR SDK Version:2.0.0
+[rviz2-2] qt.qpa.xcb: could not connect to display
+[rviz2-2] qt.qpa.plugin: Could not load the Qt platform plugin "xcb" in "" even though it was found.
+[rviz2-2] This application failed to start because no Qt platform plugin could be initialized. Reinstalling the application may fix this problem.
+[rviz2-2]
+[rviz2-2] Available platform plugins are: eglfs, linuxfb, minimal, minimalegl, offscreen, vnc, xcb.
+[rviz2-2]
+[ERROR] : process has died [pid 4045, exit code -6, cmd '/opt/ros/humble/lib/rviz2/rviz2 -d /opt/ros/humble/share/rplidar_ros/rviz/rplidar_ros.rviz --ros-args -r __node:=rviz2'].
+[rplidar_node-1] [ERROR] [1779441582.318346792] : Error, operation time out. SL_RESULT_OPERATION_TIMEOUT!
+[ERROR] : process has died [pid 4043, exit code 255, cmd '/opt/ros/humble/lib/rplidar_ros/rplidar_node --ros-args -r __node:=rplidar_node --params-file /tmp/launch_params_etxy3amh'].

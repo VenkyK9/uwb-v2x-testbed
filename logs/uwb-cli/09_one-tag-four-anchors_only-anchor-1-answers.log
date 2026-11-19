@@ -1,0 +1,349 @@
+TAG1
+[mac_address=0x0001, status="RX_TIMEOUT"]}
+SESSION_INFO_NTF: {session_handle=1, sequence_numbe
+
+ok
+JS00A6{"LCFG PARAM":{
+"CHAN":9,
+"PAC":8,
+"PCODE":10,
+"SFDTYPE":3,
+"DRATE":6810,
+"PHRMODE":0,
+"PHRRATE":0,
+"STSMODE":1,
+"STSLEN":64,
+"PDOAMODE":0,
+"XTALTRIM":46}}
+
+ok
+SAVE
+ok
+FiRa Session Parameters: {DR=1,2,3,4
+SESSION_ID: 42,
+CHANNEL_NUMBER: 9,
+DEVICE_ROLE: INITIATOR,
+RANGING_ROUND_USAGE: DS_TWR_DEFERRED,
+SLOT_DURATION [rstu]: 2400,
+RANGING_DURATION [ms]: 200,
+SLOTS_PER_RR: 25,
+MULTI_NODE_MODE: ONE_TO_MANY,
+HOPPING_MODE: Disabled,
+RFRAME_CONFIG: SP3,
+SFD_ID: 2,
+PREAMBLE_CODE_INDEX: 10,
+STATIC_STS_IV: "01:02:03:04:05:06",
+VENDOR_ID: "07:08",
+DEVICE_MAC_ADDRESS: 0x000B,
+DST_MAC_ADDRESS[0]: 0x0001
+}
+ok
+SESSION_STATUS_NTF: {state="INIT", reason="State change with session management commands"}
+SESSION_STATUS_NTF: {state="IDLE", reason="State change with session management commands"}
+SESSION_STATUS_NTF: {state="ACTIVE", reason="State change with session management commands"}
+SESSION_INFO_NTF: {session_handle=1, sequence_number=0, block_index=0, n_measurements=1
+[mac_address=0x0001, status="SUCCESS", distance[cm]=160]}
+SESSION_INFO_NTF: {session_handle=1, sequence_number=1, block_index=1, n_measurements=1
+[mac_address=0x0001, status="SUCCESS", distance[cm]=163]}
+SESSION_INFO_NTF: {session_handle=1, sequence_number=2, block_index=2, n_measurements=1
+[mac_address=0x0001, status="SUCCESS", distance[cm]=154]}
+SESSION_INFO_NTF: {session_handle=1, sequence_number=3, block_index=3, n_measurements=1
+[mac_address=0x0001, status="SUCCESS", distance[cm]=162]
+
+anc1
+ok
+JS00A6{"LCFG PARAM":{
+"CHAN":9,
+"PAC":8,
+"PCODE":10,
+"SFDTYPE":3,
+"DRATE":6810,
+"PHRMODE":0,
+"PHRRATE":0,
+"STSMODE":1,
+"STSLEN":64,
+"PDOAMODE":0,
+"XTALTRIM":46}}
+
+ok
+JS00A6{"LCFG PARAM":{
+"CHAN":9,
+"PAC":8,
+"PCODE":10,
+"SFDTYPE":3,
+"DRATE":6810,
+"PHRMODE":0,
+"PHRRATE":0,
+"STSMODE":1,
+"STSLEN":64,
+"PDOAMODE":0,
+"XTALTRIM":46}}
+
+ok
+SAVE
+ok
+FiRa Session Parameters: {R=11
+SESSION_ID: 42,
+CHANNEL_NUMBER: 9,
+DEVICE_ROLE: RESPONDER,
+RANGING_ROUND_USAGE: DS_TWR_DEFERRED,
+SLOT_DURATION [rstu]: 2400,
+RANGING_DURATION [ms]: 200,
+SLOTS_PER_RR: 25,
+MULTI_NODE_MODE: ONE_TO_MANY,
+HOPPING_MODE: Disabled,
+RFRAME_CONFIG: SP3,
+SFD_ID: 2,
+PREAMBLE_CODE_INDEX: 10,
+STATIC_STS_IV: "01:02:03:04:05:06",
+VENDOR_ID: "07:08",
+DEVICE_MAC_ADDRESS: 0x0001,
+DST_MAC_ADDRESS: 0x000B
+}
+ok
+SESSION_STATUS_NTF: {state="INIT", reason="State change with session management commands"}
+SESSION_STATUS_NTF: {state="IDLE", reason="State change with session management commands"}
+SESSION_STATUS_NTF: {state="ACTIVE", reason="State change with session management commands"}
+SESSION_INFO_NTF: {session_handle=1, sequence_number=0, block_index=452, n_measurements=1
+[mac_address=0x000b, status="SUCCESS", distance[cm]=167]}
+SESSION_INFO_NTF: {session_handle=1, sequence_number=1, block_index=453, n_measurements=1
+[mac_address=0x000b, status="SUCCESS", distance[cm]=160]}
+SESSION_INFO_NTF: {session_handle=1, sequence_number=2, block_index=454, n_measurements=1
+[mac_address=0x000b, status="SUCCESS", distance[cm]=167]}
+SESSION_INFO_NTF: {session_handle=1, sequence_number=3, block_index=455, n_measurements=1
+[mac_address=0x000b, status="SUCCESS", distance[cm]=162]}
+SESSION_INFO_NTF: {session_handle=1, sequence_number=4, block_index=456, n_measurements=1
+[mac_address=0x000b, status="RX_TIMEOUT"]}
+SESSION_INFO_NTF: {session_handle=1, sequence_number=5, block_index=457, n_measurements=1
+[mac_address=0x000b, status="RX_TIMEOUT"]}
+SESSION_INFO_NTF: {session_handle=1, sequence_number=6, block_index=458, n_measurements=1
+[mac_address=0x000b, status="RX_TIMEOUT"]}
+SESSION_INFO_NTF: {session_handle=1, sequence_number=7, block_index=459, n_measurements=1
+[mac_address=0x000b, status="RX_TIMEOUT"]}
+SESSION_INFO_NTF: {session_handle=1, sequence_number=8, block_index=460, n_measurements=1
+[mac_address=0x000b, status="RX_TIMEOUT"]}
+SESSION_INFO_NTF: {session_handle=1, sequence_number=9, block_index=461, n_measurements=1
+[mac_address=0x000b, status="RX_TIMEOUT"]}
+SESSION_INFO_NTF: {session_handle=1, sequence_number=10, block_index=462, n_measurements=1
+[mac_address=0x000b, status="RX_TIMEOUT"]}
+SESSION_INFO_NTF: {session_handle=1, sequence_number=11, block_index=463, n_measurements=1
+[mac_address=0x000b, status="RX_TIMEOUT"]}
+SESSION_INFO_NTF: {session_handle=1, sequence_number=12, block_index=464, n_measurements=1
+[mac_address=0x000b, status="RX_TIMEOUT"]}
+SESSION_INFO_NTF: {session_handle=1, sequence_number=13, block_index=465, n_measurements=1
+[mac_address=0x000b, status="RX_TIMEOUT"]}
+SESSION_INFO_NTF: {session_handle=1, sequence_number=14, block_index=0, n_measurements=1
+[mac_address=0x000b, status="SUCCESS", distance[cm]=160]}
+
+ANC2
+pi5@pi5:~ $ python3 qorvo_anchor2.py
+Anchor 2 is starting. Waiting for Tag 11...
+STOP
+
+ok
+JS00A6{"LCFG PARAM":{
+"CHAN":9,
+"PAC":8,
+"PCODE":10,
+"SFDTYPE":3,
+"DRATE":6810,
+"PHRMODE":0,
+"PHRRATE":0,
+"STSMODE":1,
+"STSLEN":64,
+"PDOAMODE":0,
+"XTALTRIM":46}}
+
+ok
+JS00A6{"LCFG PARAM":{
+"CHAN":9,
+"PAC":8,
+"PCODE":10,
+"SFDTYPE":3,
+"DRATE":6810,
+"PHRMODE":0,
+"PHRRATE":0,
+"STSMODE":1,
+"STSLEN":64,
+"PDOAMODE":0,
+"XTALTRIM":46}}
+
+ok
+SAVE
+ok
+FiRa Session Parameters: {R=11
+SESSION_ID: 42,
+CHANNEL_NUMBER: 9,
+DEVICE_ROLE: RESPONDER,
+RANGING_ROUND_USAGE: DS_TWR_DEFERRED,
+SLOT_DURATION [rstu]: 2400,
+RANGING_DURATION [ms]: 200,
+SLOTS_PER_RR: 25,
+MULTI_NODE_MODE: ONE_TO_MANY,
+HOPPING_MODE: Disabled,
+RFRAME_CONFIG: SP3,
+SFD_ID: 2,
+PREAMBLE_CODE_INDEX: 10,
+STATIC_STS_IV: "01:02:03:04:05:06",
+VENDOR_ID: "07:08",
+DEVICE_MAC_ADDRESS: 0x0002,
+DST_MAC_ADDRESS: 0x000B
+}
+ok
+SESSION_STATUS_NTF: {state="INIT", reason="State change with session management commands"}
+SESSION_STATUS_NTF: {state="IDLE", reason="State change with session management commands"}
+SESSION_STATUS_NTF: {state="ACTIVE", reason="State change with session management commands"}
+SESSION_INFO_NTF: {session_handle=1, sequence_number=0, block_index=0, n_measurements=1
+[mac_address=0x000b, status="RX_TIMEOUT"]}
+SESSION_INFO_NTF: {session_handle=1, sequence_number=1, block_index=1, n_measurements=1
+[mac_address=0x000b, status="RX_TIMEOUT"]}
+SESSION_INFO_NTF: {session_handle=1, sequence_number=2, block_index=2, n_measurements=1
+[mac_address=0x000b, status="RX_TIMEOUT"]}
+SESSION_INFO_NTF: {session_handle=1, sequence_number=3, block_index=3, n_measurements=1
+[mac_address=0x000b, status="RX_TIMEOUT"]}
+SESSION_INFO_NTF: {session_handle=1, sequence_number=4, block_index=4, n_measurements=1
+[mac_address=0x000b, status="RX_TIMEOUT"]}
+SESSION_INFO_NTF: {session_handle=1, sequence_number=5, block_index=5, n_measurements=1
+[mac_address=0x000b, status="RX_TIMEOUT"]}
+
+anc3
+i6@pi6:~ $ python3 qorvo_anchor3.py
+Anchor 3 is starting. Waiting for Tag 11...
+STOP
+
+ok
+JS00A6{"LCFG PARAM":{
+"CHAN":9,
+"PAC":8,
+"PCODE":10,
+"SFDTYPE":3,
+"DRATE":6810,
+"PHRMODE":0,
+"PHRRATE":0,
+"STSMODE":1,
+"STSLEN":64,
+"PDOAMODE":0,
+"XTALTRIM":46}}
+
+ok
+JS00A6{"LCFG PARAM":{
+"CHAN":9,
+"PAC":8,
+"PCODE":10,
+"SFDTYPE":3,
+"DRATE":6810,
+"PHRMODE":0,
+"PHRRATE":0,
+"STSMODE":1,
+"STSLEN":64,
+"PDOAMODE":0,
+"XTALTRIM":46}}
+
+ok
+SAVE
+ok
+FiRa Session Parameters: {R=11
+SESSION_ID: 42,
+CHANNEL_NUMBER: 9,
+DEVICE_ROLE: RESPONDER,
+RANGING_ROUND_USAGE: DS_TWR_DEFERRED,
+SLOT_DURATION [rstu]: 2400,
+RANGING_DURATION [ms]: 200,
+SLOTS_PER_RR: 25,
+MULTI_NODE_MODE: ONE_TO_MANY,
+HOPPING_MODE: Disabled,
+RFRAME_CONFIG: SP3,
+SFD_ID: 2,
+PREAMBLE_CODE_INDEX: 10,
+STATIC_STS_IV: "01:02:03:04:05:06",
+VENDOR_ID: "07:08",
+DEVICE_MAC_ADDRESS: 0x0003,
+DST_MAC_ADDRESS: 0x000B
+}
+ok
+SESSION_STATUS_NTF: {state="INIT", reason="State change with session management commands"}
+SESSION_STATUS_NTF: {state="IDLE", reason="State change with session management commands"}
+SESSION_STATUS_NTF: {state="ACTIVE", reason="State change with session management commands"}
+SESSION_INFO_NTF: {session_handle=1, sequence_number=0, block_index=0, n_measurements=1
+[mac_address=0x000b, status="RX_TIMEOUT"]}
+SESSION_INFO_NTF: {session_handle=1, sequence_number=1, block_index=1, n_measurements=1
+[mac_address=0x000b, status="RX_TIMEOUT"]}
+
+ANC4
+pi3@Pi3:~ $ python3 qorvo_anchor4.py
+Anchor 4 is starting. Waiting for Tag 11...
+STOP
+
+ok
+JS00A6{"LCFG PARAM":{
+"CHAN":9,
+"PAC":8,
+"PCODE":10,
+"SFDTYPE":3,
+"DRATE":6810,
+"PHRMODE":0,
+"PHRRATE":0,
+"STSMODE":1,
+"STSLEN":64,
+"PDOAMODE":0,
+"XTALTRIM":46}}
+
+ok
+JS00A6{"LCFG PARAM":{
+"CHAN":9,
+"PAC":8,
+"PCODE":10,
+"SFDTYPE":3,
+"DRATE":6810,
+"PHRMODE":0,
+"PHRRATE":0,
+"STSMODE":1,
+"STSLEN":64,
+"PDOAMODE":0,
+"XTALTRIM":46}}
+
+ok
+SAVE
+ok
+FiRa Session Parameters: {R=11
+SESSION_ID: 42,
+CHANNEL_NUMBER: 9,
+DEVICE_ROLE: RESPONDER,
+RANGING_ROUND_USAGE: DS_TWR_DEFERRED,
+SLOT_DURATION [rstu]: 2400,
+RANGING_DURATION [ms]: 200,
+SLOTS_PER_RR: 25,
+MULTI_NODE_MODE: ONE_TO_MANY,
+HOPPING_MODE: Disabled,
+RFRAME_CONFIG: SP3,
+SFD_ID: 2,
+PREAMBLE_CODE_INDEX: 10,
+STATIC_STS_IV: "01:02:03:04:05:06",
+VENDOR_ID: "07:08",
+DEVICE_MAC_ADDRESS: 0x0004,
+DST_MAC_ADDRESS: 0x000B
+}
+ok
+SESSION_STATUS_NTF: {state="INIT", reason="State change with session management commands"}
+SESSION_STATUS_NTF: {state="IDLE", reason="State change with session management commands"}
+SESSION_STATUS_NTF: {state="ACTIVE", reason="State change with session management commands"}
+SESSION_INFO_NTF: {session_handle=1, sequence_number=0, block_index=0, n_measurements=1
+[mac_address=0x000b, status="RX_TIMEOUT"]}
+SESSION_INFO_NTF: {session_handle=1, sequence_number=1, block_index=1, n_measurements=1
+[mac_address=0x000b, status="RX_TIMEOUT"]}
+SESSION_INFO_NTF: {session_handle=1, sequence_number=2, block_index=2, n_measurements=1
+[mac_address=0x000b, status="RX_TIMEOUT"]}
+SESSION_INFO_NTF: {session_handle=1, sequence_number=3, block_index=3, n_measurements=1
+[mac_address=0x000b, status="RX_TIMEOUT"]}
+SESSION_INFO_NTF: {session_handle=1, sequence_number=4, block_index=4, n_measurements=1
+[mac_address=0x000b, status="RX_TIMEOUT"]}
+SESSION_INFO_NTF: {session_handle=1, sequence_number=5, block_index=5, n_measurements=1
+[mac_address=0x000b, status="RX_TIMEOUT"]}
+SESSION_INFO_NTF: {session_handle=1, sequence_number=6, block_index=6, n_measurements=1
+[mac_address=0x000b, status="RX_TIMEOUT"]}
+SESSION_INFO_NTF: {session_handle=1, sequence_number=7, block_index=7, n_measurements=1
+[mac_address=0x000b, status="RX_TIMEOUT"]}
+SESSION_INFO_NTF: {session_handle=1, sequence_number=8, block_index=8, n_measurements=1
+[mac_address=0x000b, status="RX_TIMEOUT"]}
+SESSION_INFO_NTF: {session_handle=1, sequence_number=9, block_index=9, n_measurements=1
+[mac_address=0x000b, status="RX_TIMEOUT"]}

@@ -1,0 +1,104 @@
+pi5@pi5:~ $ python3 -m serial.tools.miniterm /dev/ttyACM0 115200
+--- Miniterm on /dev/ttyACM0  115200,8,N,1 ---
+--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---
+
+error unknown command: "␃␃␘␚Q"
+
+STOP
+
+ok
+RESTORE
+
+error incompatible mode
+SAVE
+
+error incompatible mode
+OK
+
+error unknown command: "OK"
+
+--- exit ---
+
+# ----
+pi5@pi5:~ $ python3 qorvo_rescue.py
+
+>>> RESCUE SCRIPT RUNNING <<<
+
+PRESS AND RELEASE THE SMALL RESET BUTTON (SW1) ON THE BOARD NOW!
+
+Error: Could not open port. Make sure miniterm is closed!
+
+# ----
+pi5@pi5:~ $ sudo systemctl stop qorvo-live.service
+pi5@pi5:~ $ sudo systemctl disable qorvo-live.service
+Removed '/etc/systemd/system/multi-user.target.wants/qorvo-live.service'.
+pi5@pi5:~ $ sudo pkill -9 -f python
+Killed
+pi5@pi5:~ $ python3 qorvo_rescue.py
+>>> RESCUE SCRIPT RUNNING <<<
+PRESS AND RELEASE THE SMALL RESET BUTTON (SW1) ON THE BOARD NOW!
+Error: Could not open port. Make sure miniterm is closed!
+pi5@pi5:~ $ python3 qorvo_rescue.py
+>>> RESCUE SCRIPT RUNNING <<<
+PRESS AND RELEASE THE SMALL RESET BUTTON (SW1) ON THE BOARD NOW!
+Error: Could not open port. Make sure miniterm is closed!
+pi5@pi5:~ $
+pi5@pi5:~ $ python3 qorvo_rescue.py
+>>> RESCUE SCRIPT RUNNING <<<
+PRESS AND RELEASE THE SMALL RESET BUTTON (SW1) ON THE BOARD NOW!
+Error: Could not open port. Make sure miniterm is closed!
+
+# ----
+i5@pi5:~ $ python3 qorvo_rescue.py
+
+>>> RESCUE SCRIPT RUNNING ON /dev/ttyACM0 <<<
+
+PRESS AND RELEASE THE SMALL RESET BUTTON (SW1) ON THE BOARD NOW!
+
+Error: Could not open /dev/ttyACM0. Details: write failed: [Errno 5] Input/output error
+
+# ----
+pi5@pi5:~ $ sudo python3 qorvo_rescue.py
+>>> UNKILLABLE RESCUE SCRIPT RUNNING <<<
+Physically UNPLUG the USB cable from the Qorvo board.
+Wait 2 seconds.
+PLUG the USB cable back in.
+Waiting to trap the boot sequence...
+
+*** GOT IT! BOARD TRAPPED IN IDLE ***
+Corrupted memory wiped successfully!
+The green LED should now be OFF or steady.
+Press Ctrl+C to exit.
+^CTraceback (most recent call last):
+  File "/home/pi5/qorvo_rescue.py", line 45, in <module>
+    main()
+    ~~~~^^
+  File "/home/pi5/qorvo_rescue.py", line 36, in main
+    time.sleep(1)
+    ~~~~~~~~~~^^^
+KeyboardInterrupt
+
+pi5@pi5:~ $ python3 qorvo_anchor2.py
+Anchor 2 is starting. Waiting for Tag 11...
+STOPenough memory
+
+ok
+LCFG -STSMODE=1
+error incompatible mode
+LCFG -PDOAMODE=0
+error incompatible mode
+SAVE
+error incompatible mode
+RESPF -MULTI -ADDR=2 -PADDR=[11,12]
+error incompatible mode
+^CTraceback (most recent call last):
+  File "/home/pi5/qorvo_anchor2.py", line 26, in <module>
+    main()
+    ~~~~^^
+  File "/home/pi5/qorvo_anchor2.py", line 21, in main
+    line = ser.readline().decode('ascii', errors='ignore')
+           ~~~~~~~~~~~~^^
+  File "/usr/lib/python3/dist-packages/serial/serialposix.py", line 565, in read
+    ready, _, _ = select.select([self.fd, self.pipe_abort_read_r], [], [], timeout.time_left())
+                  ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

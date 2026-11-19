@@ -1,0 +1,15 @@
+$ python3 -m venv ~/uwb_venv --system-site-packages
+The virtual environment was not created successfully because ensurepip is not
+available. On Debian/Ubuntu systems, you need to install the python3-venv
+package using the following command.
+apt install python3.10-venv
+
+You may need to use sudo with that command. After installing the python3-venv
+package, recreate your virtual environment.
+Failing command: /home/jetson1/uwb_venv/bin/python3
+jetson1@jetson1-desktop:~$ sudo apt install python3.10-venv
+[sudo] password for jetson1:
+E: Conflicting values set for option Signed-By regarding source http://packages.ros.org/ros2/ubuntu/ jammy: /usr/share/keyrings/ros-archive-keyring.gpg != -----BEGIN PGP PUBLIC KEY BLOCK-----
+[ROS repository public signing key, trimmed]
+-----END PGP PUBLIC KEY BLOCK-----
+E: The list of sources could not be read.

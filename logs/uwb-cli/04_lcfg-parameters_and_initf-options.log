@@ -1,0 +1,75 @@
+KO
+error unknown command: "LCF"
+error unknown command: "ERROR"
+Incorrect command format: "LCFG ADDR 0X0001
+                                           ".
+Accepted command format: LCFG -<opt>=VALUE. See help (`HELP LCFG`) for more details
+JS00A6{"LCFG PARAM":{
+"CHAN":9,
+"PAC":8,
+"PCODE":10,
+"SFDTYPE":3,
+"DRATE":6810,
+"PHRMODE":0,
+"PHRRATE":0,
+"STSMODE":0,
+"STSLEN":64,
+"PDOAMODE":1,
+"XTALTRIM":46}}
+
+KO
+RESTORE
+ok
+Unknown argument: ADDR=0X0001
+
+JS00A6{"LCFG PARAM":{
+"CHAN":9,
+"PAC":8,
+"PCODE":10,
+"SFDTYPE":3,
+"DRATE":6810,
+"PHRMODE":0,
+"PHRRATE":0,
+"STSMODE":0,
+"STSLEN":64,
+"PDOAMODE":1,
+"XTALTRIM":46}}
+
+KO
+
+# HELP text for INITF:
+INITF:
+INITF [Option1] [Option2] ...
+Options: (only default values are shown, check the SDK Manual to know more about the available configurations)
+  -CHAN=9       --> Channel number
+  -PRFSET=BPRF4 --> PRF set
+  -PCODE=10     --> Preamble code index
+  -SLOT=2400    --> Slot duration [RSTU]
+  -BLOCK=200    --> Block duration [ms]
+  -ROUND=25     --> Round duration [slots]
+  -RRU=DSTWR    --> Ranging round usage
+  -ID=42        --> Session ID
+  -VUPPER=01:02:03:04:05:06:07:08   --> vUpper64
+  -MULTI        --> Activate one-to-many mode
+  -HOP          --> Activate round hopping
+  -ADDR=0       --> Device own address (Initiator address)
+  -PADDR=1      --> 1st Responder address
+     or to set multiple responders:
+  -PADDR=[1,2,.,.,n]  --> to set n Responder addresses (for one-to-many)
+
+# Commands planned for the anchors:
+# Anchor 1
+RESPF -MULTI -ADDR=0x0001 -PADDR=0x0000
+
+# Anchor 2
+RESPF -MULTI -ADDR=0x0002 -PADDR=0x0000
+
+# Anchor 3
+RESPF -MULTI -ADDR=0x0003 -PADDR=0x0000
+
+# Anchor 4
+RESPF -MULTI -ADDR=0x0004 -PADDR=0x0000
+
+# and for the tag:
+dwm> STOP
+dwm> INITF -MULTI -PADDR=0x0001,0x0002,0x0003,0x0004

@@ -1,0 +1,54 @@
+KO
+ADDR 0x0001
+error unknown command: ""
+SETAPP: INVALID APPLICATION
+
+KO
+lcfg addr 0x0001
+error unknown command: "LCF"
+LCFG ADDR 0X0001
+error unknown command: "LCF"
+ok
+error unknown command: "OK"
+restore
+ok
+"SFDTYPE":3, PARAM":{: "SET_ADDR"
+error unknown command: ""SFDTYPE""
+"DRATE":6810,
+error unknown command: ""DRATE":6"
+"PHRMODE":0,
+error unknown command: ""PHRMODE""
+"PHRRATE":0,
+error unknown command: ""PHRRATE""
+"STSMODE":0,
+error unknown command: ""STSMODE""
+"STSLEN":64,
+error unknown command: ""STSLEN":"
+"PDOAMODE":1,
+error unknown command: ""PDOAMODE"
+"XTALTRIM":46}}
+error unknown command: ""XTALTRIM"
+ok
+error unknown command: "OK"
+addr 0x0001
+error unknown command: "ADDR"
+error unknown command: "ADDR"
+error unknown command: "ERROR"
+SETAPP: INVALID APPLICATION
+error unknown command: "SETAPP:"
+                        "
+error unknown command: """
+KO
+error unknown command: "KO"
+ADDR 0x0001
+error unknown command: "ADDR"
+error unknown command: ""
+error unknown command: "ERROR"
+SETAPP: INVALID APPLICATION
+error unknown command: "SETAPP:"
+KO
+error unknown command: "KO"
+Incorrect command format: "LCFG ADDR 0X0001
+                                           ".
+Accepted command format: LCFG -<opt>=VALUE. See help (`HELP LCFG`) for more details
+JS00A6{"LCFG PARAM":{

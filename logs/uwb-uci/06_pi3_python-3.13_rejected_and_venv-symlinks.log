@@ -1,0 +1,57 @@
+~/uwb-qorvo-tools $ pip install ./lib/uwb-uci
+Looking in indexes: https://pypi.org/simple, https://www.piwheels.org/simple
+Processing ./lib/uwb-uci
+Installing build dependencies ... done
+Getting requirements to build wheel ... done
+Preparing metadata (pyproject.toml) ... done
+INFO: pip is looking at multiple versions of uwb-uci to determine which version is compatible with other requirements. This could take a while.
+ERROR: Package 'uwb-uci' requires a different Python: 3.13.5 not in '<3.11.0,>=3.9'
+
+# ----
+i3@Pi3:/tmp $ tar -xf Python-3.10.16.tgz
+pi3@Pi3:/tmp $ cd Python-3.10.16
+pi3@Pi3:/tmp/Python-3.10.16 $ make -j4
+sudo make altinstall
+make: *** No targets specified and no makefile found. Stop.
+make: *** No rule to make target 'altinstall'. Stop.
+pi3@Pi3:/tmp/Python-3.10.16 $ python3 --version
+Python 3.13.5
+pi3@Pi3:/tmp/Python-3.10.16 $ make -j4
+make: *** No targets specified and no makefile found. Stop.
+pi3@Pi3:/tmp/Python-3.10.16 $ sudo make altinstall
+make: *** No rule to make target 'altinstall'. Stop.
+
+# ----
+pi3@Pi3:/tmp/Python-3.10.16 $ python3.10 --version
+Python 3.10.16
+pi3@Pi3:/tmp/Python-3.10.16 $ python3 --version
+Python 3.13.5
+pi3@Pi3:/tmp/Python-3.10.16 $ cd ~/uwb-qorvo-tools
+pi3@Pi3:~/uwb-qorvo-tools $ pip install ./lib/uwb-uci
+Looking in indexes: https://pypi.org/simple, https://www.piwheels.org/simple
+Processing ./lib/uwb-uci
+Installing build dependencies ... done
+Getting requirements to build wheel ... done
+Preparing metadata (pyproject.toml) ... done
+INFO: pip is looking at multiple versions of uwb-uci to determine which version is compatible with other requirements. This could take a while.
+ERROR: Package 'uwb-uci' requires a different Python: 3.13.5 not in '<3.11.0,>=3.9'
+pi3@Pi3:~/uwb-qorvo-tools $
+
+# ----
+pi3@Pi3:~/uwb-qorvo-tools $ deactivate 2>/dev/null || true
+pi3@Pi3:~/uwb-qorvo-tools $ python3.10 -m venv ~/uwb_venv
+pi3@Pi3:~/uwb-qorvo-tools $ source ~/uwb_venv/bin/activate
+(uwb_venv) pi3@Pi3:~/uwb-qorvo-tools $ python3 --version
+Python 3.13.5
+
+# ----
+(uwb_venv) pi3@Pi3:~/uwb-qorvo-tools $ ls -la ~/uwb_venv/bin/python*
+lrwxrwxrwx 1 pi3 pi3 7 May 4 01:54 /home/pi3/uwb_venv/bin/python -> python3
+lrwxrwxrwx 1 pi3 pi3 16 May 4 01:54 /home/pi3/uwb_venv/bin/python3 -> /usr/bin/python3
+lrwxrwxrwx 1 pi3 pi3 25 May 4 02:32 /home/pi3/uwb_venv/bin/python3.10 -> /usr/local/bin/python3.10
+lrwxrwxrwx 1 pi3 pi3 7 May 4 01:54 /home/pi3/uwb_venv/bin/python3.13 -> python3
+(uwb_venv) pi3@Pi3:~/uwb-qorvo-tools $ rm -rf ~/uwb_venv
+(uwb_venv) pi3@Pi3:~/uwb-qorvo-tools $ /usr/local/lib/python3.10 --version
+-bash: /usr/local/lib/python3.10: Is a directory
+(uwb_venv) pi3@Pi3:~/uwb-qorvo-tools $ source ~/uwb_venv/bin/activate
+-bash: /home/pi3/uwb_venv/bin/activate: No such file or directory

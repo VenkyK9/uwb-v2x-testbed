@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<!--
+  UWB_V2X
+  Status : Proposed. No run is recorded.
+  About  : Browser page (roslibjs + ros2djs) showing /scan and /map through rosbridge.
+-->
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>LiDAR + SLAM Web Viz</title>
+  <style>
+    body { margin: 0; font-family: sans-serif; }
+    #status { padding: 8px; background: #222; color: #eee; font-size: 14px; }
+    #viewer { width: 100vw; height: calc(100vh - 32px); background: #111; }
+  </style>
+</head>
+<body>
+  <div id="status">Connecting...</div>
+  <div id="viewer"></div>
+
+  <!-- roslibjs and ros2djs via CDN (v1) -->
+  <script src="https://cdn.jsdelivr.net/npm/roslib@1/build/roslib.min.js"></script>
+  <script src="https://static.robotwebtools.org/ros2djs/current/ros2d.min.js"></script>
+  <script src="https://static.robotwebtools.org/easeljs/0.8.2/easeljs.min.js"></script>
+
+  <script>
+    // 1. Connect to rosbridge
+    const ros = new ROSLIB.Ros({
+      url: 'ws://' + window.location.hostname + ':9090'
+    });
+
+    const statusEl = document.getElementById('status');
+    ros.on('connection', () => statusEl.textContent = 'Connected to rosbridge');
+    ros.on('error', err => statusEl.textContent = 'Error: ' + err);
+    ros.on('close', () => statusEl.textContent = 'Connection closed');
+
+    // 2. Create a 2D viewer
+    const viewerDiv = document.getElementById('viewer');
+    const viewer = new ROS2D.Viewer({
+      divID: 'viewer',
+      width: viewerDiv.clientWidth,
+      height: viewerDiv.clientHeight
+    });
+
+    // 3. Create a scene for map + laser
+    const gridClient = new ROS2D.OccupancyGridClient({
+      ros: ros,
+      rootObject: viewer.scene,
+      topic: '/map',
+      continuous: true
+    });
+
+    gridClient.on('change', () => {
+      viewer.scaleToDimensions(gridClient.currentGrid.width, gridClient.currentGrid.height);
+      viewer.shift(gridClient.currentGrid.pose.position.x, gridClient.currentGrid.pose.position.y);
+    });
+
+    // 4. LaserScan layer
+    const laserLayer = new ROS2D.LaserScan({
+      ros: ros,
+      topic: '/scan',
+      rootObject: viewer.scene
+    });
+  </script>
+</body>
+</html>

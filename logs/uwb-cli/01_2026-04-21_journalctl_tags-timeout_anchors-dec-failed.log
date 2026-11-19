@@ -1,0 +1,49 @@
+TAG1
+pi1@pi1:~ $ sudo journalctl -u qorvo-live.service -f
+Apr 21 20:21:17 pi1 python3[2389]: SESSION_INFO_NTF: {session_handle=1, sequence_number=43, block_index=43, n_measurements=1
+Apr 21 20:21:17 pi1 python3[2389]:  [mac_address=0x0001, status="RX_TIMEOUT"]}
+Apr 21 20:21:17 pi1 python3[2389]: SESSION_INFO_NTF: {session_handle=1, sequence_number=44, block_index=44, n_measurements=1
+Apr 21 20:21:17 pi1 python3[2389]:  [mac_address=0x0001, status="RX_TIMEOUT"]}
+Apr 21 20:21:17 pi1 python3[2389]: SESSION_INFO_NTF: {session_handle=1, sequence_number=45, block_index=45, n_measurements=1
+
+TAG2
+pi2@pi2:~ $ sudo journalctl -u qorvo-live.service -f
+Apr 21 20:21:20 pi2 python3[1554]: SESSION_INFO_NTF: {session_handle=1, sequence_number=47, block_index=47, n_measurements=1
+Apr 21 20:21:20 pi2 python3[1554]:  [mac_address=0x0001, status="RX_TIMEOUT"]}
+Apr 21 20:21:20 pi2 python3[1554]: SESSION_INFO_NTF: {session_handle=1, sequence_number=48, block_index=48, n_measurements=1
+Apr 21 20:21:20 pi2 python3[1554]:  [mac_address=0x0001, status="RX_TIMEOUT"]}
+Apr 21 20:21:20 pi2 python3[1554]: SESSION_INFO_NTF: {session_handle=1, sequence_number=49, block_index=49, n_measurements=1
+
+ANC1
+pi4@pi4:~ $ sudo journalctl -u qorvo-live.service -f
+Apr 21 20:09:58 pi4 python3[2523]: SESSION_INFO_NTF: {session_handle=1, sequence_number=231, block_index=182, n_measurements=1
+Apr 21 20:09:59 pi4 python3[2523]:  [mac_address=0x0000, status="RX_MAC_IE_DEC_FAILED"]}
+Apr 21 20:09:59 pi4 python3[2523]: SESSION_INFO_NTF: {session_handle=1, sequence_number=232, block_index=183, n_measurements=1
+Apr 21 20:09:59 pi4 python3[2523]:  [mac_address=0x0000, status="RX_MAC_IE_DEC_FAILED"]}
+Apr 21 20:09:59 pi4 python3[2523]: SESSION_INFO_NTF: {session_handle=1, sequence_number=233, block_index=184, n_measurements=1
+
+ANC2
+pi5@pi5:~ $ sudo journalctl -u qorvo-live.service -f
+Apr 21 20:14:38 pi5 python3[2420]: SESSION_INFO_NTF: {session_handle=1, sequence_number=151, block_index=151, n_measurements=1
+Apr 21 20:14:38 pi5 python3[2420]:  [mac_address=0x0000, status="RX_MAC_IE_DEC_FAILED"]}
+Apr 21 20:14:38 pi5 python3[2420]: SESSION_INFO_NTF: {session_handle=1, sequence_number=152, block_index=152, n_measurements=1
+Apr 21 20:14:38 pi5 python3[2420]:  [mac_address=0x0000, status="RX_TIMEOUT"]}
+Apr 21 20:14:38 pi5 python3[2420]: SESSION_INFO_NTF: {session_handle=1, sequence_number=153, block_index=153, n_measurements=1
+Apr 21 20:14:38 pi5 python3[2420]:  [mac_address=0x0000, status="RX_TIMEOUT"]}
+Apr 21 20:14:38 pi5 python3[2420]: SESSION_INFO_NTF: {session_handle=1, sequence_number=154, block_index=154, n_measurements=1
+Apr 21 20:14:38 pi5 python3[2420]:  [mac_address=0x0000, status="RX_TIMEOUT"]}
+Apr 21 20:14:39 pi5 python3[2420]: SESSION_INFO_NTF: {session_handle=1, sequence_number=155, block_index=155, n_measurements=1
+Apr 21 20:14:39 pi5 python3[2420]:  [mac_address=0x0000, status="RX_TIMEOUT"]}
+
+ANC3
+pi6@pi6:~ $ sudo journalctl -u qorvo-live.service -f
+Apr 21 20:14:38 pi6 python3[2229]: SESSION_INFO_NTF: {session_handle=1, sequence_number=151, block_index=151, n_measurements=1
+Apr 21 20:14:38 pi6 python3[2229]:  [mac_address=0x0000, status="RX_MAC_IE_DEC_FAILED"]}
+Apr 21 20:14:38 pi6 python3[2229]: SESSION_INFO_NTF: {session_handle=1, sequence_number=152, block_index=152, n_measurements=1
+Apr 21 20:14:38 pi6 python3[2229]:  [mac_address=0x0000, status="RX_TIMEOUT"]}
+Apr 21 20:14:38 pi6 python3[2229]: SESSION_INFO_NTF: {session_handle=1, sequence_number=153, block_index=153, n_measurements=1
+Apr 21 20:14:38 pi6 python3[2229]:  [mac_address=0x0000, status="RX_TIMEOUT"]}
+Apr 21 20:14:38 pi6 python3[2229]: SESSION_INFO_NTF: {session_handle=1, sequence_number=154, block_index=154, n_measurements=1
+Apr 21 20:14:38 pi6 python3[2229]:  [mac_address=0x0000, status="RX_TIMEOUT"]}
+Apr 21 20:14:39 pi6 python3[2229]: SESSION_INFO_NTF: {session_handle=1, sequence_number=155, block_index=155, n_measurements=1
+Apr 21 20:14:39 pi6 python3[2229]:  [mac_address=0x0000, status="RX_TIMEOUT"]}

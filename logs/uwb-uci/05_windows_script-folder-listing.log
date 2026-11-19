@@ -1,0 +1,33 @@
+(venv) PS D:\V2X\DW3_QM33_SDK_1.1.1\SDK\Tools\uwb-qorvo-tools> dir scripts\fira\
+Directory: D:\\V2X\\DW3_QM33_SDK_1.1.1\\SDK\\Tools\\uwb-qorvo-tools\\scripts\\fira
+
+Mode LastWriteTime Length Name
+
+d----- 14-08-2025 06:43 run_fira_test_periodic_tx
+d----- 14-08-2025 06:43 run_fira_test_per_rx
+d----- 14-08-2025 06:43 run_fira_test_rx
+d----- 14-08-2025 06:43 run_fira_test_ss_twr
+d----- 14-08-2025 06:43 run_fira_twr
+-a---- 14-08-2025 06:43 251 README.md
+(venv) PS D:\V2X\DW3_QM33_SDK_1.1.1\SDK\Tools\uwb-qorvo-tools> dir scripts\ -Recurse -Filter "*.py" | Select-Object FullName
+FullName
+D:\V2X\DW3_QM33_SDK_1.1.1\SDK\Tools\uwb-qorvo-tools\scripts\device\get_cal\get_cal.py
+D:\V2X\DW3_QM33_SDK_1.1.1\SDK\Tools\uwb-qorvo-tools\scripts\device\get_cap\get_cap.py
+D:\V2X\DW3_QM33_SDK_1.1.1\SDK\Tools\uwb-qorvo-tools\scripts\device\get_config\get_config.py
+D:\V2X\DW3_QM33_SDK_1.1.1\SDK\Tools\uwb-qorvo-tools\scripts\device\get_device_info\get_device_info.py
+D:\V2X\DW3_QM33_SDK_1.1.1\SDK\Tools\uwb-qorvo-tools\scripts\device\load_cal\load_cal.py
+D:\V2X\DW3_QM33_SDK_1.1.1\SDK\Tools\uwb-qorvo-tools\scripts\device\reset_calibration\reset_calibration.py
+D:\V2X\DW3_QM33_SDK_1.1.1\SDK\Tools\uwb-qorvo-tools\scripts\device\reset_device\reset_device.py
+D:\V2X\DW3_QM33_SDK_1.1.1\SDK\Tools\uwb-qorvo-tools\scripts\device\set_cal\set_cal.py
+D:\V2X\DW3_QM33_SDK_1.1.1\SDK\Tools\uwb-qorvo-tools\scripts\device\set_config\set_config.py
+D:\V2X\DW3_QM33_SDK_1.1.1\SDK\Tools\uwb-qorvo-tools\scripts\fira\run_fira_test_periodic_tx\run_fira_test_periodic...
+D:\V2X\DW3_QM33_SDK_1.1.1\SDK\Tools\uwb-qorvo-tools\scripts\fira\run_fira_test_per_rx\run_fira_test_per_rx.py
+D:\V2X\DW3_QM33_SDK_1.1.1\SDK\Tools\uwb-qorvo-tools\scripts\fira\run_fira_test_rx\run_fira_test_rx.py
+D:\V2X\DW3_QM33_SDK_1.1.1\SDK\Tools\uwb-qorvo-tools\scripts\fira\run_fira_test_ss_twr\run_fira_test_ss_twr.py
+D:\V2X\DW3_QM33_SDK_1.1.1\SDK\Tools\uwb-qorvo-tools\scripts\fira\run_fira_twr\run_fira_twr.py
+D:\V2X\DW3_QM33_SDK_1.1.1\SDK\Tools\uwb-qorvo-tools\scripts\qorvo\run_qorvo_test_pll_lock\run_qorvo_test_pll_lock.py
+D:\V2X\DW3_QM33_SDK_1.1.1\SDK\Tools\uwb-qorvo-tools\scripts\qorvo\run_qorvo_test_tx_cw\run_qorvo_test_tx_cw.py
+D:\V2X\DW3_QM33_SDK_1.1.1\SDK\Tools\uwb-qorvo-tools\scripts\utils\decode_uci\decode_uci.py
+D:\V2X\DW3_QM33_SDK_1.1.1\SDK\Tools\uwb-qorvo-tools\scripts\utils\fp\fp.py
+D:\V2X\DW3_QM33_SDK_1.1.1\SDK\Tools\uwb-qorvo-tools\scripts\utils\uqt_info\uqt_info.py
+D:\V2X\DW3_QM33_SDK_1.1.1\SDK\Tools\uwb-qorvo-tools\scripts\utils\uqt_ls\uqt_ls.py

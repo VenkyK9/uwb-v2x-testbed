@@ -1,0 +1,36 @@
+jetson1@jetson1-desktop:~$ sudo apt install ros-humble-gazebo-*
+
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+Note, selecting 'ros-humble-gazebo-model-attachment-plugin-msgs-dbgsym' for glob 'ros-humble-gazebo-
+'Note, selecting 'ros-humble-gazebo-video-monitor-interfaces' for glob 'ros-humble-gazebo-'
+Note, selecting 'ros-humble-gazebo-model-attachment-plugin-msgs' for glob 'ros-humble-gazebo-
+'Note, selecting 'ros-humble-gazebo-msgs-dbgsym' for glob 'ros-humble-gazebo-'
+Note, selecting 'ros-humble-gazebo-dev' for glob 'ros-humble-gazebo-
+'Note, selecting 'ros-humble-gazebo-video-monitor-utils' for glob 'ros-humble-gazebo-'
+Note, selecting 'ros-humble-gazebo-video-monitor-interfaces-dbgsym' for glob 'ros-humble-gazebo-
+'Note, selecting 'ros-humble-gazebo-msgs' for glob 'ros-humble-gazebo-'
+Some packages could not be installed. This may mean that you have
+requested an impossible situation or if you are using the unstable
+distribution that some required packages have not yet been created
+or been moved out of Incoming.
+The following information may help to resolve the situation:
+The following packages have unmet dependencies:
+ros-humble-gazebo-dev : Depends: gazebo but it is not installable
+Depends: libgazebo-dev but it is not installable
+E: Unable to correct problems, you have held broken packages.
+
+# ----
+jetson1@jetson1-desktop:~$ sudo apt install gazebo libgazebo-dev
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+Package gazebo is not available, but is referred to by another package.
+This may mean that the package is missing, has been obsoleted, or
+is only available from another source
+Package libgazebo-dev is not available, but is referred to by another package.
+This may mean that the package is missing, has been obsoleted, or
+is only available from another source
+E: Package 'gazebo' has no installation candidate
+E: Package 'libgazebo-dev' has no installation candidate

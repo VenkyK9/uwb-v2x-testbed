@@ -1,0 +1,65 @@
+# The Pis started; the Jetsons did not.
+# Jetson 1:
+(uwb_venv) jetson1@jetson1-desktop:~/uwb-qorvo-tools$ python3 scripts/fira/run_fira_twr/run_fira_twr.py -t -1 --node onetomany --dest-mac '[0x1,0x2,0x3]' --n_controlees 3
+Initializing session 42...
+11:56:35.936 CRITICAL: UciComError.TimeoutError (0x3): No response from the device (4s timeout)
+# Jetson 2:
+(uwb_venv) jetson2@jetson2:~/uwb-qorvo-tools$ python3 scripts/fira/run_fira_twr/run_fira_twr.py -t -1 --node onetomany --dest-mac '[0x1,0x2,0x3]' --n_controlees 3
+Traceback (most recent call last):
+File "/home/jetson2/uwb_venv/lib/python3.10/site-packages/serial/serialposix.py", line 322, in open
+self.fd = os.open(self.portstr, os.O_RDWR | os.O_NOCTTY | os.O_NONBLOCK)
+PermissionError: [Errno 13] Permission denied: '/dev/ttyACM0'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+File "/home/jetson2/uwb-qorvo-tools/scripts/fira/run_fira_twr/run_fira_twr.py", line 667, in <module>
+main()
+File "/home/jetson2/uwb-qorvo-tools/scripts/fira/run_fira_twr/run_fira_twr.py", line 474, in main
+client = Client(port=args.port, notif_handlers=notif_handlers)
+File "/home/jetson2/uwb_venv/lib/python3.10/site-packages/uci/qorvo.py", line 320, in init
+super().init(*args, **kwargs)
+File "/home/jetson2/uwb_venv/lib/python3.10/site-packages/uci/fira.py", line 81, in init
+super().init(*args, **kwargs)
+File "/home/jetson2/uwb_venv/lib/python3.10/site-packages/uci/core.py", line 169, in init
+transport.Factory.get(
+File "/home/jetson2/uwb_venv/lib/python3.10/site-packages/uci/transport.py", line 40, in get
+return tr(callback, *args, **kwargs)
+File "/home/jetson2/uwb_venv/lib/python3.10/site-packages/uci/addin_transport_uart.py", line 88, in init
+serial.serial_for_url(*args, **kwargs),
+File "/home/jetson2/uwb_venv/lib/python3.10/site-packages/serial/init.py", line 90, in serial_for_url
+instance.open()
+File "/home/jetson2/uwb_venv/lib/python3.10/site-packages/serial/serialposix.py", line 325, in open
+raise SerialException(msg.errno, "could not open port {}: {}".format(self._port, msg))
+serial.serialutil.SerialException: [Errno 13] could not open port /dev/ttyACM0: [Errno 13] Permission denied: '/dev/ttyACM0'
+Exception ignored in: <function UartTransport.del at 0xffffb0b213f0>
+Traceback (most recent call last):
+File "/home/jetson2/uwb_venv/lib/python3.10/site-packages/uci/addin_transport_uart.py", line 97, in del
+self.serial.cancel_read()
+AttributeError: 'UartTransport' object has no attribute 'serial'
+
+# ----
+# Then the Pis:
+# Pi 1:
+(uwb_venv) pi1@pi1:~/uwb-qorvo-tools $ python3 scripts/fira/run_fira_twr/run_fira_twr.py -t -1 --node onetomany --mac 0x1 --controlee
+12:25:02.865 CRITICAL: UciComError.UnknownPort (0x1): "/dev/ttyACM0" is not supported
+# Pi 2:
+(uwb_venv) pi2@pi2:~/uwb-qorvo-tools $ python3 scripts/fira/run_fira_twr/run_fira_twr.py -t -1 --node onetomany --mac 0x2 --controlee
+12:25:03.803 CRITICAL: UciComError.UnknownPort (0x1): "/dev/ttyACM0" is not supported
+# Pi 3:
+(uwb_venv) pi3@Pi3:~/uwb-qorvo-tools $ python3 scripts/fira/run_fira_twr/run_fira_twr.py -t -1 --node onetomany --mac 0x3 --controlee
+02:55:04.752 CRITICAL: UciComError.UnknownPort (0x1): "/dev/ttyACM0" is not supported
+
+# ----
+(uwb_venv) pi1@pi1:~/uwb-qorvo-tools $ ls /dev/ttyACM*
+/dev/ttyACM1
+# (the same on every Pi)
+
+# ----
+(uwb_venv) jetson1@jetson1-desktop:~/uwb-qorvo-tools$ ls /dev/ttyACM*
+/dev/ttyACM0
+(uwb_venv) jetson2@jetson2:~/uwb-qorvo-tools$ ls /dev/ttyACM*
+/dev/ttyACM1
+# After updating the port: this error on Jetson 2, Pi 1 and Pi 2
+(uwb_venv) pi1@pi1:~/uwb-qorvo-tools $ python3 scripts/fira/run_fira_twr/run_fira_twr.py -t -1 --node onetomany --mac 0x1 --controlee
+Initializing session 42...
+12:36:09.583 CRITICAL: UciComError.TimeoutError (0x3): No response from the device (4s timeout)
+# Pi 3 and Jetson 1 started session 42 without problems.

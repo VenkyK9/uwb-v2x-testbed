@@ -1,0 +1,248 @@
+Jetson 1:
+# Ranging Data:
+session handle: 1
+sequence n: 897
+ranging interval: 200 ms
+measurement type: Twr
+Mac add size: 2
+primary session id: 0x0
+n of measurement: 3
+# Measurement 1:
+status: Ok (0x0)
+mac address: 00:01 hex
+is nlos meas: Unsupported
+distance: 330.0 cm
+AoA azimuth: 0.0 deg
+AoA az. FOM: 0.0 %
+AoA elevation: 0.0 deg
+AoA elev. FOM: 0.0
+AoA dest azimuth: 0.0 deg
+AoA dest az. FOM: 0.0 %
+AoA dest elevation: 0.0 deg
+AoA dest elev. FOM: 0.0 %
+slot in error: 0
+rssi: -0.0 dBm
+# Measurement 2:
+status: Ok (0x0)
+mac address: 00:02 hex
+is nlos meas: Unsupported
+distance: 219.0 cm
+AoA azimuth: 0.0 deg
+AoA az. FOM: 0.0 %
+AoA elevation: 0.0 deg
+AoA elev. FOM: 0.0
+AoA dest azimuth: 0.0 deg
+AoA dest az. FOM: 0.0 %
+AoA dest elevation: 0.0 deg
+AoA dest elev. FOM: 0.0 %
+slot in error: 0
+rssi: -0.0 dBm
+# Measurement 3:
+status: Ok (0x0)
+mac address: 00:03 hex
+is nlos meas: Unsupported
+distance: 362.0 cm
+AoA azimuth: 0.0 deg
+AoA az. FOM: 0.0 %
+AoA elevation: 0.0 deg
+AoA elev. FOM: 0.0
+AoA dest azimuth: 0.0 deg
+AoA dest az. FOM: 0.0 %
+AoA dest elevation: 0.0 deg
+AoA dest elev. FOM: 0.0 %
+slot in error: 0
+rssi: -0.0 dBm
+^Z
+[1]+ Stopped python3 scripts/fira/run_fira_twr/run_fira_twr.py -t -1 --node onetomany --dest-mac '[0x1,0x2,0x3]' --n_controlees 3
+Jetson 2:
+Ranging Data:
+    session handle:         1
+    sequence n:         908
+    ranging interval:   200 ms
+    measurement type:   Twr
+    Mac add size:       2
+    primary session id: 0x0
+    n of measurement:   3
+    # Measurement 1:
+        status:             RangingRxTimeout (0x21)
+        mac address:        00:01 hex
+        is nlos meas:       Unsupported
+        distance:           65535.0 cm
+        AoA azimuth:        0.0 deg
+        AoA az. FOM:        0.0 %
+        AoA elevation:      0.0 deg
+        AoA elev. FOM:      0.0
+        AoA dest azimuth:   0.0 deg
+        AoA dest az. FOM:   0.0 %
+        AoA dest elevation: 0.0 deg
+        AoA dest elev. FOM: 0.0 %
+        slot in error:      2
+        rssi:               -0.0 dBm
+    # Measurement 2:
+        status:             RangingRxTimeout (0x21)
+        mac address:        00:02 hex
+        is nlos meas:       Unsupported
+        distance:           65535.0 cm
+        AoA azimuth:        0.0 deg
+        AoA az. FOM:        0.0 %
+        AoA elevation:      0.0 deg
+        AoA elev. FOM:      0.0
+        AoA dest azimuth:   0.0 deg
+        AoA dest az. FOM:   0.0 %
+        AoA dest elevation: 0.0 deg
+        AoA dest elev. FOM: 0.0 %
+        slot in error:      3
+        rssi:               -0.0 dBm
+    # Measurement 3:
+        status:             RangingRxTimeout (0x21)
+        mac address:        00:03 hex
+        is nlos meas:       Unsupported
+        distance:           65535.0 cm
+        AoA azimuth:        0.0 deg
+        AoA az. FOM:        0.0 %
+        AoA elevation:      0.0 deg
+        AoA elev. FOM:      0.0
+        AoA dest azimuth:   0.0 deg
+        AoA dest az. FOM:   0.0 %
+        AoA dest elevation: 0.0 deg
+        AoA dest elev. FOM: 0.0 %
+        slot in error:      4
+        rssi:               -0.0 dBm
+
+Ranging Data:
+    session handle:         1
+    sequence n:         909
+    ranging interval:   200 ms
+    measurement type:   Twr
+    Mac add size:       2
+    primary session id: 0x0
+    n of measurement:   3
+    # Measurement 1:
+        status:             RangingRxTimeout (0x21)
+        mac address:        00:01 hex
+        is nlos meas:       Unsupported
+        distance:           65535.0 cm
+        AoA azimuth:        0.0 deg
+        AoA az. FOM:        0.0 %
+        AoA elevation:      0.0 deg
+        AoA elev. FOM:      0.0
+        AoA dest azimuth:   0.0 deg
+        AoA dest az. FOM:   0.0 %
+        AoA dest elevation: 0.0 deg
+        AoA dest elev. FOM: 0.0 %
+        slot in error:      2
+        rssi:               -0.0 dBm
+    # Measurement 2:
+        status:             RangingRxTimeout (0x21)
+        mac address:        00:02 hex
+        is nlos meas:       Unsupported
+        distance:           65535.0 cm
+        AoA azimuth:        0.0 deg
+        AoA az. FOM:        0.0 %
+        AoA elevation:      0.0 deg
+        AoA elev. FOM:      0.0
+        AoA dest azimuth:   0.0 deg
+        AoA dest az. FOM:   0.0 %
+        AoA dest elevation: 0.0 deg
+        AoA dest elev. FOM: 0.0 %
+        slot in error:      3
+        rssi:               -0.0 dBm
+    # Measurement 3:
+        status:             RangingRxTimeout (0x21)
+        mac address:        00:03 hex
+        is nlos meas:       Unsupported
+        distance:           65535.0 cm
+        AoA azimuth:        0.0 deg
+        AoA az. FOM:        0.0 %
+        AoA elevation:      0.0 deg
+        AoA elev. FOM:      0.0
+        AoA dest azimuth:   0.0 deg
+        AoA dest az. FOM:   0.0 %
+        AoA dest elevation: 0.0 deg
+        AoA dest elev. FOM: 0.0 %
+        slot in error:      4
+        rssi:               -0.0 dBm
+
+^Z
+[1]+ Stopped python3 scripts/fira/run_fira_twr/run_fira_twr.py -t -1 --node onetomany --dest-mac '[0x1,0x2,0x3]' --n_controlees 3
+PI1:
+Ranging Data:
+    session handle:         1
+    sequence n:         938
+    ranging interval:   200 ms
+    measurement type:   Twr
+    Mac add size:       2
+    primary session id: 0x0
+    n of measurement:   1
+    # Measurement 1:
+        status:             Ok (0x0)
+        mac address:        00:00 hex
+        is nlos meas:       Unsupported
+        distance:           330.0 cm
+        AoA azimuth:        0.0 deg
+        AoA az. FOM:        0.0 %
+        AoA elevation:      0.0 deg
+        AoA elev. FOM:      0.0
+        AoA dest azimuth:   0.0 deg
+        AoA dest az. FOM:   0.0 %
+        AoA dest elevation: 0.0 deg
+        AoA dest elev. FOM: 0.0 %
+        slot in error:      0
+        rssi:               -0.0 dBm
+
+^Z
+[1]+ Stopped python3 scripts/fira/run_fira_twr/run_fira_twr.py -t -1 --node onetomany --mac 0x1 --controlee
+PI2:
+Ranging Data:
+    session handle:         1
+    sequence n:         935
+    ranging interval:   200 ms
+    measurement type:   Twr
+    Mac add size:       2
+    primary session id: 0x0
+    n of measurement:   1
+    # Measurement 1:
+        status:             Ok (0x0)
+        mac address:        00:00 hex
+        is nlos meas:       Unsupported
+        distance:           220.0 cm
+        AoA azimuth:        0.0 deg
+        AoA az. FOM:        0.0 %
+        AoA elevation:      0.0 deg
+        AoA elev. FOM:      0.0
+        AoA dest azimuth:   0.0 deg
+        AoA dest az. FOM:   0.0 %
+        AoA dest elevation: 0.0 deg
+        AoA dest elev. FOM: 0.0 %
+        slot in error:      0
+        rssi:               -0.0 dBm
+
+^Z
+[1]+ Stopped python3 scripts/fira/run_fira_twr/run_fira_twr.py -t -1 --node onetomany --mac 0x2 --controlee
+PI3:
+Ranging Data:
+    session handle:         1
+    sequence n:         935
+    ranging interval:   200 ms
+    measurement type:   Twr
+    Mac add size:       2
+    primary session id: 0x0
+    n of measurement:   1
+    # Measurement 1:
+        status:             Ok (0x0)
+        mac address:        00:00 hex
+        is nlos meas:       Unsupported
+        distance:           220.0 cm
+        AoA azimuth:        0.0 deg
+        AoA az. FOM:        0.0 %
+        AoA elevation:      0.0 deg
+        AoA elev. FOM:      0.0
+        AoA dest azimuth:   0.0 deg
+        AoA dest az. FOM:   0.0 %
+        AoA dest elevation: 0.0 deg
+        AoA dest elev. FOM: 0.0 %
+        slot in error:      0
+        rssi:               -0.0 dBm
+
+^Z
+[1]+ Stopped python3 scripts/fira/run_fira_twr/run_fira_twr.py -t -1 --node onetomany --mac 0x2 --controlee

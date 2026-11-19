@@ -1,0 +1,8 @@
+(uwb_venv) pi1@pi1:~/uwb-qorvo-tools $ ls /dev/ttyACM*
+/dev/ttyACM9
+(uwb_venv) pi1@pi1:~/uwb-qorvo-tools $ export UQT_PORT=/dev/ttyACM9
+(uwb_venv) pi1@pi1:~/uwb-qorvo-tools $ python3 scripts/fira/run_fira_twr/run_fira_twr.py -t -1 --node onetomany --mac 0x1 --controlee
+Initializing session 42...
+14:16:16.617 CRITICAL: UciComError.TimeoutError (0x3): No response from the device (4s timeout)
+
+# (this error came back on every attempt)

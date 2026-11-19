@@ -1,0 +1,21 @@
+# ----------------------------------------------------------------------------
+# UWB_V2X
+# Status : Example given for the RF2O test. Whether this exact file was used is not recorded.
+# About  : Minimal slam_toolbox parameters for mapping with an odom frame.
+# ----------------------------------------------------------------------------
+slam_toolbox:
+  ros__parameters:
+    use_sim_time: false
+    mode: mapping
+    scan_topic: /scan
+    odom_frame: odom
+    map_frame: map
+    base_frame: base_link
+    resolution: 0.05
+    max_laser_range: 12.0
+    minimum_time_interval: 0.5
+    transform_publish_period: 0.02
+    map_update_interval: 3.0
+    linear_update: 0.1
+    angular_update: 0.1
+    publish_period: 0.1

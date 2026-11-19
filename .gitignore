@@ -1,0 +1,23 @@
+# Used by the git command line only. Files uploaded through the GitHub website are not filtered.
+
+# Python
+__pycache__/
+*.pyc
+
+# Python virtual environments (recreate them, do not commit them)
+venv/
+.venv/
+uwb_venv/
+
+# Editors and operating systems
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Qorvo SDK and firmware images: get them from Qorvo, do not commit them
+DW3_QM33_SDK_*/
+*.hex
+
+# Note: files ending in .log are NOT ignored. The logs in logs/ are part of the record.

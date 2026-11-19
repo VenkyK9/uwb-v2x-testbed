@@ -1,0 +1,6 @@
+# ----------------------------------------------------------------------------
+# UWB_V2X
+# Status : Recommended during setup. Not confirmed as installed: on 28 May Jetson 1 still listed /dev/ttyACM0 as crw-rw---- root dialout, and 'sudo chmod 666' was the fix actually used.
+# About  : udev rule giving the dialout group access to every /dev/ttyACM* device.
+# ----------------------------------------------------------------------------
+KERNEL=="ttyACM[0-9]*", MODE="0666", GROUP="dialout"

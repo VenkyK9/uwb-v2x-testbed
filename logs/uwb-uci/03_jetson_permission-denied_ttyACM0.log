@@ -1,0 +1,34 @@
+(uwb_venv) jetson1@jetson1-desktop:~/uwb-qorvo-tools$ source ~/uwb_venv/bin/activate
+cd ~/uwb-qorvo-tools
+python3 scripts/device/get_device_info/get_device_info.py -p /dev/ttyACM0
+Pinging device at /dev/ttyACM0:
+Traceback (most recent call last):
+File "/home/jetson1/uwb_venv/lib/python3.10/site-packages/serial/serialposix.py", line 322, in open
+self.fd = os.open(self.portstr, os.O_RDWR | os.O_NOCTTY | os.O_NONBLOCK)
+PermissionError: [Errno 13] Permission denied: '/dev/ttyACM0'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+File "/home/jetson1/uwb-qorvo-tools/scripts/device/get_device_info/get_device_info.py", line 67, in <module>
+main()
+File "/home/jetson1/uwb-qorvo-tools/scripts/device/get_device_info/get_device_info.py", line 54, in main
+client = Client(port=args.port)
+File "/home/jetson1/uwb_venv/lib/python3.10/site-packages/uci/qorvo.py", line 320, in init
+super().init(*args, **kwargs)
+File "/home/jetson1/uwb_venv/lib/python3.10/site-packages/uci/fira.py", line 81, in init
+super().init(*args, **kwargs)
+File "/home/jetson1/uwb_venv/lib/python3.10/site-packages/uci/core.py", line 169, in init
+transport.Factory.get(
+File "/home/jetson1/uwb_venv/lib/python3.10/site-packages/uci/transport.py", line 40, in get
+return tr(callback, *args, **kwargs)
+File "/home/jetson1/uwb_venv/lib/python3.10/site-packages/uci/addin_transport_uart.py", line 88, in init
+serial.serial_for_url(*args, **kwargs),
+File "/home/jetson1/uwb_venv/lib/python3.10/site-packages/serial/init.py", line 90, in serial_for_url
+instance.open()
+File "/home/jetson1/uwb_venv/lib/python3.10/site-packages/serial/serialposix.py", line 325, in open
+raise SerialException(msg.errno, "could not open port {}: {}".format(self._port, msg))
+serial.serialutil.SerialException: [Errno 13] could not open port /dev/ttyACM0: [Errno 13] Permission denied: '/dev/ttyACM0'
+Exception ignored in: <function UartTransport.del at 0xffff8baf13f0>
+Traceback (most recent call last):
+File "/home/jetson1/uwb_venv/lib/python3.10/site-packages/uci/addin_transport_uart.py", line 97, in del
+self.serial.cancel_read()
+AttributeError: 'UartTransport' object has no attribute 'serial'

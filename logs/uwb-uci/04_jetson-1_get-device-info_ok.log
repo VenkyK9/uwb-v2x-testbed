@@ -1,0 +1,18 @@
+(uwb_venv) jetson1@jetson1-desktop:~/uwb-qorvo-tools$ sudo chmod 666 /dev/ttyACM0
+(uwb_venv) jetson1@jetson1-desktop:~/uwb-qorvo-tools$
+sudo chmod 666 /dev/ttyACM0
+source ~/uwb_venv/bin/activate
+cd ~/uwb-qorvo-tools
+python3 scripts/device/get_device_info/get_device_info.py -p /dev/ttyACM0
+Pinging device at /dev/ttyACM0:
+Get Device Info:
+    status:              Ok (0x0)
+    uci version:         2.0.0
+    mac version:         2.0.0
+    phy version:         2.0.0
+    uci test version:    1.1.0
+    QMF version:         1.1.0
+    OEM version:         0.0.0
+    build job:           na
+    soc id:              (removed)
+    device id:           deca0302

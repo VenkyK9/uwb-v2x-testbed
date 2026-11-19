@@ -1,0 +1,242 @@
+Unsuccessful attempt 1:
+Jetson 1:
+
+(uwb_venv) jetson1@jetson1-desktop:~/uwb-qorvo-tools$ ls /dev/ttyACM*
+/dev/ttyACM1
+(uwb_venv) jetson1@jetson1-desktop:~/uwb-qorvo-tools$ export UQT_PORT=/dev/ttyACM1
+(uwb_venv) jetson1@jetson1-desktop:~/uwb-qorvo-tools$ ~/uwb-qorvo-tools/demo_runner.sh
+Starting Round-Robin UWB TWR...
+--- Initiating TAG 1 (Jetson 1) ---
+usage: run_fira_twr.py [-h] [--description] [-p PORT] [-t TIME] [-v]
+                       [-s SESSION] [-c CHANNEL] [--controlee]
+                       [--round {ss-deferred,ds-deferred,ss-non-deferred,ds-non-deferred}]
+                       [--round-ctrl ROUND_CTRL] [--en-key-rot]
+                       [--key-rot-rate KEY_ROT_RATE]
+                       [--sts {static,provisioned,provisioned-key}]
+                       [--slot-span SLOT_SPAN]
+                       [--node {unicast,onetomany}]
+                       [--ranging-span RANGING_SPAN] [--en-diag]
+                       [--diag-fields DIAG_FIELDS] [--meas-max MEAS_MAX]
+                       [--skey SKEY] [--mac MAC] [--dest-mac DEST_MAC]
+                       [--controlees-with-sskey CONTROLEES_WITH_SSKEY]
+                       [--frame {sp1,sp3}] [--ssession SSESSION]
+                       [--sskey SSKEY] [--en-rssi] [--stats] [--diag_dump]
+                       [--n_controlees N_CONTROLEES]
+                       [--block_stride_length BLOCK_STRIDE_LENGTH]
+                       [--sts-length {0,1,2}] [--vendor-id VENDOR_ID]
+                       [--static-sts STATIC_STS]
+                       [--aoa-report {all-disabled,all-enabled,azimuth-only}]
+                       [--preamble-idx PREAMBLE_IDX] [--sfd SFD]
+                       [--slots-per-rr SLOTS_PER_RR]
+                       [--hopping-mode {disabled,enabled}]
+run_fira_twr.py: error: unrecognized arguments: --session-id 1
+/home/jetson1/uwb-qorvo-tools/demo_runner.sh: line 21: kill: (6711) - No such process
+--- Initiating TAG 2 (Jetson 2) ---
+usage: run_fira_twr.py [-h] [--description] [-p PORT] [-t TIME] [-v]
+                       [-s SESSION] [-c CHANNEL] [--controlee]
+                       [--round {ss-deferred,ds-deferred,ss-non-deferred,ds-non-deferred}]
+                       [--round-ctrl ROUND_CTRL] [--en-key-rot]
+                       [--key-rot-rate KEY_ROT_RATE]
+                       [--sts {static,provisioned,provisioned-key}]
+                       [--slot-span SLOT_SPAN] [--node {unicast,onetomany}]
+                       [--ranging-span RANGING_SPAN] [--en-diag]
+                       [--diag-fields DIAG_FIELDS] [--meas-max MEAS_MAX]
+                       [--skey SKEY] [--mac MAC] [--dest-mac DEST_MAC]
+                       [--controlees-with-sskey CONTROLEES_WITH_SSKEY]
+                       [--frame {sp1,sp3}] [--ssession SSESSION]
+                       [--sskey SSKEY] [--en-rssi] [--stats] [--diag_dump]
+                       [--n_controlees N_CONTROLEES]
+                       [--block_stride_length BLOCK_STRIDE_LENGTH]
+                       [--sts-length {0,1,2}] [--vendor-id VENDOR_ID]
+                       [--static-sts STATIC_STS]
+                       [--aoa-report {all-disabled,all-enabled,azimuth-only}]
+                       [--preamble-idx PREAMBLE_IDX] [--sfd SFD]
+                       [--slots-per-rr SLOTS_PER_RR]
+                       [--hopping-mode {disabled,enabled}]
+run_fira_twr.py: error: unrecognized arguments: --session-id 2
+/home/jetson1/uwb-qorvo-tools/demo_runner.sh: line 29: kill: (6714) - No such process
+--- Initiating TAG 1 (Jetson 1) ---
+usage: run_fira_twr.py [-h] [--description] [-p PORT] [-t TIME] [-v]
+                       [-s SESSION] [-c CHANNEL] [--controlee]
+                       [--round {ss-deferred,ds-deferred,ss-non-deferred,ds-non-deferred}]
+                       [--round-ctrl ROUND_CTRL] [--en-key-rot]
+                       [--key-rot-rate KEY_ROT_RATE]
+                       [--sts {static,provisioned,provisioned-key}]
+                       [--slot-span SLOT_SPAN]
+                       [--node {unicast,onetomany}]
+                       [--ranging-span RANGING_SPAN] [--en-diag]
+                       [--diag-fields DIAG_FIELDS] [--meas-max MEAS_MAX]
+                       [--skey SKEY] [--mac MAC] [--dest-mac DEST_MAC]
+                       [--controlees-with-sskey CONTROLEES_WITH_SSKEY]
+                       [--frame {sp1,sp3}] [--ssession SSESSION]
+                       [--sskey SSKEY] [--en-rssi] [--stats] [--diag_dump]
+                       [--n_controlees N_CONTROLEES]
+                       [--block_stride_length BLOCK_STRIDE_LENGTH]
+                       [--sts-length {0,1,2}] [--vendor-id VENDOR_ID]
+                       [--static-sts STATIC_STS]
+                       [--aoa-report {all-disabled,all-enabled,azimuth-only}]
+                       [--preamble-idx PREAMBLE_IDX] [--sfd SFD]
+                       [--slots-per-rr SLOTS_PER_RR]
+                       [--hopping-mode {disabled,enabled}]
+run_fira_twr.py: error: unrecognized arguments: --session-id 1
+/home/jetson1/uwb-qorvo-tools/demo_runner.sh: line 21: kill: (6717) - No such process
+--- Initiating TAG 2 (Jetson 2) ---
+usage: run_fira_twr.py [-h] [--description] [-p PORT] [-t TIME] [-v]
+                       [-s SESSION] [-c CHANNEL] [--controlee]
+                       [--round {ss-deferred,ds-deferred,ss-non-deferred,ds-non-deferred}]
+                       [--round-ctrl ROUND_CTRL] [--en-key-rot]
+                       [--key-rot-rate KEY_ROT_RATE]
+                       [--sts {static,provisioned,provisioned-key}]
+                       [--slot-span SLOT_SPAN] [--node {unicast,onetomany}]
+                       [--ranging-span RANGING_SPAN] [--en-diag]
+                       [--diag-fields DIAG_FIELDS] [--meas-max MEAS_MAX]
+                       [--skey SKEY] [--mac MAC] [--dest-mac DEST_MAC]
+                       [--controlees-with-sskey CONTROLEES_WITH_SSKEY]
+                       [--frame {sp1,sp3}] [--ssession SSESSION]
+                       [--sskey SSKEY] [--en-rssi] [--stats] [--diag_dump]
+                       [--n_controlees N_CONTROLEES]
+                       [--block_stride_length BLOCK_STRIDE_LENGTH]
+                       [--sts-length {0,1,2}] [--vendor-id VENDOR_ID]
+                       [--static-sts STATIC_STS]
+                       [--aoa-report {all-disabled,all-enabled,azimuth-only}]
+                       [--preamble-idx PREAMBLE_IDX] [--sfd SFD]
+                       [--slots-per-rr SLOTS_PER_RR]
+                       [--hopping-mode {disabled,enabled}]
+run_fira_twr.py: error: unrecognized arguments: --session-id 2
+/home/jetson1/uwb-qorvo-tools/demo_runner.sh: line 29: kill: (6720) - No such process
+--- Initiating TAG 1 (Jetson 1) ---
+usage: run_fira_twr.py [-h] [--description] [-p PORT] [-t TIME] [-v]
+                       [-s SESSION] [-c CHANNEL] [--controlee]
+                       [--round {ss-deferred,ds-deferred,ss-non-deferred,ds-non-deferred}]
+                       [--round-ctrl ROUND_CTRL] [--en-key-rot]
+                       [--key-rot-rate KEY_ROT_RATE]
+                       [--sts {static,provisioned,provisioned-key}]
+                       [--slot-span SLOT_SPAN]
+                       [--node {unicast,onetomany}]
+                       [--ranging-span RANGING_SPAN] [--en-diag]
+                       [--diag-fields DIAG_FIELDS] [--meas-max MEAS_MAX]
+                       [--skey SKEY] [--mac MAC] [--dest-mac DEST_MAC]
+                       [--controlees-with-sskey CONTROLEES_WITH_SSKEY]
+                       [--frame {sp1,sp3}] [--ssession SSESSION]
+                       [--sskey SSKEY] [--en-rssi] [--stats] [--diag_dump]
+                       [--n_controlees N_CONTROLEES]
+                       [--block_stride_length BLOCK_STRIDE_LENGTH]
+                       [--sts-length {0,1,2}] [--vendor-id VENDOR_ID]
+                       [--static-sts STATIC_STS]
+                       [--aoa-report {all-disabled,all-enabled,azimuth-only}]
+                       [--preamble-idx PREAMBLE_IDX] [--sfd SFD]
+                       [--slots-per-rr SLOTS_PER_RR]
+                       [--hopping-mode {disabled,enabled}]
+run_fira_twr.py: error: unrecognized arguments: --session-id 1
+/home/jetson1/uwb-qorvo-tools/demo_runner.sh: line 21: kill: (6723) - No such process
+--- Initiating TAG 2 (Jetson 2) ---
+^Z
+[2]+  Stopped                 ~/uwb-qorvo-tools/demo_runner.sh
+
+Pi1:
+# Ranging Data:
+        session handle:         1
+        sequence n:         104
+        ranging interval:   200 ms
+        measurement type:   Twr
+        Mac add size:       2
+        primary session id: 0x0
+        n of measurement:   1
+        # Measurement 1:
+            status:             RangingRxTimeout (0x21)
+            mac address:        00:00 hex
+            is nlos meas:       Unsupported
+            distance:           65535.0 cm
+            AoA azimuth:        0.0 deg
+            AoA az. FOM:        0.0 %
+            AoA elevation:      0.0 deg
+            AoA elev. FOM:      0.0
+            AoA dest azimuth:   0.0 deg
+            AoA dest az. FOM:   0.0 %
+            AoA dest elevation: 0.0 deg
+            AoA dest elev. FOM: 0.0 %
+            slot in error:      0
+            rssi:               -0.0 dBm
+
+# Ranging Data:
+        session handle:         1
+        sequence n:         105
+        ranging interval:   200 ms
+        measurement type:   Twr
+        Mac add size:       2
+        primary session id: 0x0
+        n of measurement:   1
+        # Measurement 1:
+            status:             RangingRxTimeout (0x21)
+            mac address:        00:00 hex
+            is nlos meas:       Unsupported
+            distance:           65535.0 cm
+            AoA azimuth:        0.0 deg
+            AoA az. FOM:        0.0 %
+            AoA elevation:      0.0 deg
+            AoA elev. FOM:      0.0
+            AoA dest azimuth:   0.0 deg
+            AoA dest az. FOM:   0.0 %
+            AoA dest elevation: 0.0 deg
+            AoA dest elev. FOM: 0.0 %
+            slot in error:      0
+            rssi:               -0.0 dBm
+
+^Z
+[2]+  Stopped                 python3 scripts/fira/run_fira_twr/run_fira_twr.py -t -1 --node onetomany --mac 0x1 --controlee
+
+Pi2:
+# Ranging Data:
+        session handle:         1
+        sequence n:         104
+        ranging interval:   200 ms
+        measurement type:   Twr
+        Mac add size:       2
+        primary session id: 0x0
+        n of measurement:   1
+        # Measurement 1:
+            status:             RangingRxTimeout (0x21)
+            mac address:        00:00 hex
+            is nlos meas:       Unsupported
+            distance:           65535.0 cm
+            AoA azimuth:        0.0 deg
+            AoA az. FOM:        0.0 %
+            AoA elevation:      0.0 deg
+            AoA elev. FOM:      0.0
+            AoA dest azimuth:   0.0 deg
+            AoA dest az. FOM:   0.0 %
+            AoA dest elevation: 0.0 deg
+            AoA dest elev. FOM: 0.0 %
+            slot in error:      0
+            rssi:               -0.0 dBm
+
+^Z
+[3]+  Stopped                 python3 scripts/fira/run_fira_twr/run_fira_twr.py -t -1 --node onetomany --mac 0x2 --controlee
+
+Pi3:
+# Ranging Data:
+        session handle:         1
+        sequence n:         103
+        ranging interval:   200 ms
+        measurement type:   Twr
+        Mac add size:       2
+        primary session id: 0x0
+        n of measurement:   1
+        # Measurement 1:
+            status:             RangingRxTimeout (0x21)
+            mac address:        00:00 hex
+            is nlos meas:       Unsupported
+            distance:           65535.0 cm
+            AoA azimuth:        0.0 deg
+            AoA az. FOM:        0.0 %
+            AoA elevation:      0.0 deg
+            AoA elev. FOM:      0.0
+            AoA dest azimuth:   0.0 deg
+            AoA dest az. FOM:   0.0 %
+            AoA dest elevation: 0.0 deg
+            AoA dest elev. FOM: 0.0 %
+            slot in error:      0
+            rssi:               -0.0 dBm
+
+^Z
+[3]+  Stopped                 python3 scripts/fira/run_fira_twr/run_fira_twr.py -t -1 --node onetomany --mac 0x3 --controlee
